@@ -16,7 +16,7 @@ system - System Root - , combine=SUM, weight=1, bdc=None
                 num_stride - Stride - No. of dimensions of hardware supported stride, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=None, num_dims=0
                 num_pattern - Patterns - No. of movement patterns [Peer-to-Peer, Broadcast, Scatter], stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=None, num_dims=0
             control - Control - , combine=SUM, weight=1, bdc=None
-                instage_maskt_addr - Instage_maskt Addressing - Node supports instage_maskt addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=None, num_dims=0
+                indirect_addr - Indirect Addressing - Node supports indirect addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=None, num_dims=0
                 loop_levels - Loop Levels  - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=None, num_dims=0
                 latency_hide - Latency Hiding - No. of latency hiding widgets [Threads, Double Buffers], stage_mask=[0, 0, 1, 1], weight=1, scale=Exponential, bdc=None, num_dims=0
                 data_dep - Data Dependency - Sync. support between data producer and consumer, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=None, num_dims=0
@@ -52,7 +52,7 @@ system - System Root - , combine=SUM, weight=1, bdc=[5, 0, 6, 0]
                 num_stride - Stride - No. of dimensions of hardware supported stride, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
                 num_pattern - Patterns - No. of movement patterns [Peer-to-Peer, Broadcast, Scatter], stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
             control - Control - , combine=SUM, weight=1, bdc=[2, 0, 2, 0]
-                instage_maskt_addr - Instage_maskt Addressing - Node supports instage_maskt addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+                indirect_addr - Indirect Addressing - Node supports indirect addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
                 loop_levels - Loop Levels  - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
                 latency_hide - Latency Hiding - No. of latency hiding widgets [Threads, Double Buffers], stage_mask=[0, 0, 1, 1], weight=1, scale=Exponential, bdc=[0, 0, 0, 0], num_dims=0
                 data_dep - Data Dependency - Sync. support between data producer and consumer, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[2, 0, 2, 0], num_dims=2
@@ -88,7 +88,7 @@ system - System Root - , combine=SUM, weight=1, bdc=[7, 4, 11.7, 14.7]
                 num_stride - Stride - No. of dimensions of hardware supported stride, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
                 num_pattern - Patterns - No. of movement patterns [Peer-to-Peer, Broadcast, Scatter], stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
             control - Control - , combine=SUM, weight=1, bdc=[2, 0, 4.7, 2.7]
-                instage_maskt_addr - Instage_maskt Addressing - Node supports instage_maskt addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+                indirect_addr - Indirect Addressing - Node supports indirect addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
                 loop_levels - Loop Levels  - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
                 latency_hide - Latency Hiding - No. of latency hiding widgets [Threads, Double Buffers], stage_mask=[0, 0, 1, 1], weight=1, scale=Exponential, bdc=[0, 0, 2.7, 2.7], num_dims=1
                 data_dep - Data Dependency - Sync. support between data producer and consumer, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[2, 0, 2, 0], num_dims=2
@@ -129,7 +129,7 @@ system - System Root - , combine=SUM, weight=1, bdc=[10, 5, 11.7, 13.7]
                 num_stride - Stride - No. of dimensions of hardware supported stride, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
                 num_pattern - Patterns - No. of movement patterns [Peer-to-Peer, Broadcast, Scatter], stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
             control - Control - , combine=SUM, weight=1, bdc=[2, 0, 4.7, 2.7]
-                instage_maskt_addr - Instage_maskt Addressing - Node supports instage_maskt addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+                indirect_addr - Indirect Addressing - Node supports indirect addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
                 loop_levels - Loop Levels  - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
                 latency_hide - Latency Hiding - No. of latency hiding widgets [Threads, Double Buffers], stage_mask=[0, 0, 1, 1], weight=1, scale=Exponential, bdc=[0, 0, 2.7, 2.7], num_dims=1
                 data_dep - Data Dependency - Sync. support between data producer and consumer, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[2, 0, 2, 0], num_dims=2
@@ -165,7 +165,7 @@ system - System Root - , combine=SUM, weight=1, bdc=[15, 5, 11.7, 13.7]
                 num_stride - Stride - No. of dimensions of hardware supported stride, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
                 num_pattern - Patterns - No. of movement patterns [Peer-to-Peer, Broadcast, Scatter], stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
             control - Control - , combine=SUM, weight=1, bdc=[2, 0, 4.7, 2.7]
-                instage_maskt_addr - Instage_maskt Addressing - Node supports instage_maskt addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+                indirect_addr - Indirect Addressing - Node supports indirect addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
                 loop_levels - Loop Levels  - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
                 latency_hide - Latency Hiding - No. of latency hiding widgets [Threads, Double Buffers], stage_mask=[0, 0, 1, 1], weight=1, scale=Exponential, bdc=[0, 0, 2.7, 2.7], num_dims=1
                 data_dep - Data Dependency - Sync. support between data producer and consumer, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[2, 0, 2, 0], num_dims=2
@@ -213,7 +213,7 @@ system - System Root - , combine=SUM, weight=1, bdc=[10, 0, 9, 0]
                 num_stride - Stride - No. of dimensions of hardware supported stride, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[1, 0, 1, 0], num_dims=1
                 num_pattern - Patterns - No. of movement patterns [Peer-to-Peer, Broadcast, Scatter], stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
             control - Control - , combine=SUM, weight=1, bdc=[1, 0, 1, 0]
-                instage_maskt_addr - Instage_maskt Addressing - Node supports instage_maskt addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+                indirect_addr - Indirect Addressing - Node supports indirect addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
                 loop_levels - Loop Levels  - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
                 latency_hide - Latency Hiding - No. of latency hiding widgets [Threads, Double Buffers], stage_mask=[0, 0, 1, 1], weight=1, scale=Exponential, bdc=[0, 0, 0, 0], num_dims=0
                 data_dep - Data Dependency - Sync. support between data producer and consumer, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[1, 0, 1, 0], num_dims=1
@@ -249,7 +249,7 @@ system - System Root - , combine=SUM, weight=1, bdc=[14, 0, 11, 0]
                 num_stride - Stride - No. of dimensions of hardware supported stride, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[2, 0, 2, 0], num_dims=2
                 num_pattern - Patterns - No. of movement patterns [Peer-to-Peer, Broadcast, Scatter], stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
             control - Control - , combine=SUM, weight=1, bdc=[1, 0, 1, 0]
-                instage_maskt_addr - Instage_maskt Addressing - Node supports instage_maskt addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+                indirect_addr - Indirect Addressing - Node supports indirect addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
                 loop_levels - Loop Levels  - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=1
                 latency_hide - Latency Hiding - No. of latency hiding widgets [Threads, Double Buffers], stage_mask=[0, 0, 1, 1], weight=1, scale=Exponential, bdc=[0, 0, 0, 0], num_dims=0
                 data_dep - Data Dependency - Sync. support between data producer and consumer, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[1, 0, 1, 0], num_dims=1
@@ -285,7 +285,7 @@ system - System Root - , combine=SUM, weight=1, bdc=[15, 0, 12.7, 0]
                 num_stride - Stride - No. of dimensions of hardware supported stride, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[2, 0, 2, 0], num_dims=2
                 num_pattern - Patterns - No. of movement patterns [Peer-to-Peer, Broadcast, Scatter], stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
             control - Control - , combine=SUM, weight=1, bdc=[1, 0, 3.7, 0]
-                instage_maskt_addr - Instage_maskt Addressing - Node supports instage_maskt addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+                indirect_addr - Indirect Addressing - Node supports indirect addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
                 loop_levels - Loop Levels  - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=2
                 latency_hide - Latency Hiding - No. of latency hiding widgets [Threads, Double Buffers], stage_mask=[0, 0, 1, 1], weight=1, scale=Exponential, bdc=[0, 0, 2.7, 0], num_dims=1
                 data_dep - Data Dependency - Sync. support between data producer and consumer, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[1, 0, 1, 0], num_dims=1
@@ -326,7 +326,7 @@ system - System Root - , combine=SUM, weight=1, bdc=[15, 7, 11, 13]
                 num_stride - Stride - No. of dimensions of hardware supported stride, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[2, 0, 2, 0], num_dims=2
                 num_pattern - Patterns - No. of movement patterns [Peer-to-Peer, Broadcast, Scatter], stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=[0, 2, 0, 2], num_dims=2
             control - Control - , combine=SUM, weight=1, bdc=[2, 0, 2, 0]
-                instage_maskt_addr - Instage_maskt Addressing - Node supports instage_maskt addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+                indirect_addr - Indirect Addressing - Node supports indirect addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
                 loop_levels - Loop Levels  - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
                 latency_hide - Latency Hiding - No. of latency hiding widgets [Threads, Double Buffers], stage_mask=[0, 0, 1, 1], weight=1, scale=Exponential, bdc=[0, 0, 0, 0], num_dims=0
                 data_dep - Data Dependency - Sync. support between data producer and consumer, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[2, 0, 2, 0], num_dims=2
@@ -351,23 +351,23 @@ system - System Root - , combine=SUM, weight=1, bdc=[15, 7, 11, 13]
 
 
 [INFO ]  Feature Tree: Name = Intel SH
-BDC = [29, 11, 27.7, 21.7]
+BDC = [29, 12, 27.7, 21.7]
 
-system - System Root - , combine=SUM, weight=1, bdc=[29, 11, 27.7, 21.7]
+system - System Root - , combine=SUM, weight=1, bdc=[29, 12, 27.7, 21.7]
     memory - Memory Hierarchy - , combine=SUM, weight=1, bdc=[4, 4, 5, 5]
         num_cache - Implicit Data Movement - No. of cache levels, stage_mask=[0, 0, 1, 1], weight=1, scale=Linear, bdc=[0, 0, 1, 1], num_dims=1
         num_scratch - Explicit Data Movement - No. of scratchpad levels, stage_mask=[1, 1, 1, 1], weight=1, scale=Linear, bdc=[2, 2, 2, 2], num_dims=2
         num_sw_coherent - Software Coherency - No. of software coherrent levels, stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
         num_access_gran - Data Access Granularity - No. of data access granularity levels, stage_mask=[1, 1, 1, 1], weight=1, scale=Linear, bdc=[2, 2, 2, 2], num_dims=2
         num_props - Storage Properties - No. of storage properties [Activations, Weights, Output], stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
-    nodetypes_set - Node Types Set - , combine=SUM, weight=1, bdc=[25, 5, 22.7, 9.7]
+    nodetypes_set - Node Types Set - , combine=SUM, weight=1, bdc=[25, 6, 22.7, 9.7]
         dsp - Node - DSP Node, combine=SUM, weight=1, bdc=[6, 3, 6, 4]
             data_mov - Data Movement - , combine=SUM, weight=1, bdc=[1, 3, 2, 4]
                 local_dma - DMA Engines - DMA engines present in node [y/n] , stage_mask=[0, 0, 1, 1], weight=1, scale=Linear, bdc=[0, 0, 1, 1], num_dims=1
                 num_stride - Stride - No. of dimensions of hardware supported stride, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[1, 0, 1, 0], num_dims=1
                 num_pattern - Patterns - No. of movement patterns [Peer-to-Peer, Broadcast, Scatter], stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=[0, 3, 0, 3], num_dims=3
             control - Control - , combine=SUM, weight=1, bdc=[2, 0, 2, 0]
-                instage_maskt_addr - Instage_maskt Addressing - Node supports instage_maskt addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+                indirect_addr - Indirect Addressing - Node supports indirect addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
                 loop_levels - Loop Levels  - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
                 latency_hide - Latency Hiding - No. of latency hiding widgets [Threads, Double Buffers], stage_mask=[0, 0, 1, 1], weight=1, scale=Exponential, bdc=[0, 0, 0, 0], num_dims=0
                 data_dep - Data Dependency - Sync. support between data producer and consumer, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[2, 0, 2, 0], num_dims=2
@@ -383,13 +383,13 @@ system - System Root - , combine=SUM, weight=1, bdc=[29, 11, 27.7, 21.7]
                     num_dims_mask - Unmaskable Dimensions - No. of inner operation dimensions without masking support, stage_mask=[1, 0, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
                     num_mem_levels - Memory Levels - No. of memory units in datapath [Input, Output, Internal], stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[1, 0, 1, 0], num_dims=1
                     latency_hide - Latency Hiding - No. of latency hiding widgets [Threads, Double Buffers], stage_mask=[0, 0, 1, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
-        dl_grid - Node - DL Grid Node, combine=SUM, weight=1, bdc=[14, 2, 10, 3]
+        dl_grid - Node - DL Grid Node, combine=SUM, weight=1, bdc=[14, 3, 10, 3]
             data_mov - Data Movement - , combine=SUM, weight=1, bdc=[5, 2, 6, 3]
                 local_dma - DMA Engines - DMA engines present in node [y/n] , stage_mask=[0, 0, 1, 1], weight=1, scale=Linear, bdc=[0, 0, 1, 1], num_dims=1
                 num_stride - Stride - No. of dimensions of hardware supported stride, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[5, 0, 5, 0], num_dims=5
                 num_pattern - Patterns - No. of movement patterns [Peer-to-Peer, Broadcast, Scatter], stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=[0, 2, 0, 2], num_dims=2
-            control - Control - , combine=SUM, weight=1, bdc=[2, 0, 2, 0]
-                instage_maskt_addr - Instage_maskt Addressing - Node supports instage_maskt addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+            control - Control - , combine=SUM, weight=1, bdc=[2, 1, 2, 0]
+                indirect_addr - Indirect Addressing - Node supports indirect addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 1, 0, 0], num_dims=1
                 loop_levels - Loop Levels  - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
                 latency_hide - Latency Hiding - No. of latency hiding widgets [Threads, Double Buffers], stage_mask=[0, 0, 1, 1], weight=1, scale=Exponential, bdc=[0, 0, 0, 0], num_dims=0
                 data_dep - Data Dependency - Sync. support between data producer and consumer, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[2, 0, 2, 0], num_dims=2
@@ -406,7 +406,7 @@ system - System Root - , combine=SUM, weight=1, bdc=[29, 11, 27.7, 21.7]
                 num_stride - Stride - No. of dimensions of hardware supported stride, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
                 num_pattern - Patterns - No. of movement patterns [Peer-to-Peer, Broadcast, Scatter], stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
             control - Control - , combine=SUM, weight=1, bdc=[2, 0, 4.7, 2.7]
-                instage_maskt_addr - Instage_maskt Addressing - Node supports instage_maskt addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+                indirect_addr - Indirect Addressing - Node supports indirect addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
                 loop_levels - Loop Levels  - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
                 latency_hide - Latency Hiding - No. of latency hiding widgets [Threads, Double Buffers], stage_mask=[0, 0, 1, 1], weight=1, scale=Exponential, bdc=[0, 0, 2.7, 2.7], num_dims=1
                 data_dep - Data Dependency - Sync. support between data producer and consumer, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[2, 0, 2, 0], num_dims=2
