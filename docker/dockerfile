@@ -1,0 +1,19 @@
+FROM ubuntu:16.04
+
+# Install basic utilities, Python and Chart Studio for plotting
+RUN apt-get update && apt-get install -y \
+            curl wget python3 git vim && \
+        wget https://bootstrap.pypa.io/get-pip.py && \
+        python3 ./get-pip.py && \
+        pip install chart_studio 
+
+# Install requirements to create image files
+RUN apt-get install -y build-essential python3-dev \
+            libgtk2.0-0 libgconf-2-4 xvfb libxtst6 libxss1 libnss3 \
+            libasound2 && \
+        curl -sL https://deb.nodesource.com/setup_11.x | /bin/bash - && \
+        apt-get install -y nodejs && \ 
+        npm install -g electron@1.8.4 --unsafe-perm=true && \
+        npm install -g orca && \
+        echo 'alias orca="xvfb-run -a /usr/bin/orca"' >> /etc/bash.bashrc && \
+        pip install psutil
