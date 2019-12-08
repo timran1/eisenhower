@@ -9,72 +9,72 @@
 [DEBUG]  Setting combine=SUM for network
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.memory.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_cache
 [DEBUG]  Setting combine=SUM for num_cache
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_scratch
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_cache
 [DEBUG]  Setting combine=SUM for num_scratch
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sw_coherent
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_scratch
 [DEBUG]  Setting combine=SUM for num_sw_coherent
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_access_gran
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sw_coherent
 [DEBUG]  Setting combine=SUM for num_access_gran
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_props
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_access_gran
 [DEBUG]  Setting combine=SUM for num_props
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_props
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for node
 [DEBUG]  Setting combine=SUM for node
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for node
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_mov
 [DEBUG]  Setting combine=SUM for data_mov
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for control
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_mov
 [DEBUG]  Setting combine=SUM for control
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapaths_set
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for control
 [DEBUG]  Setting combine=SUM for datapaths_set
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapaths_set
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.data_mov.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for local_dma
 [DEBUG]  Setting combine=SUM for local_dma
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_stride
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for local_dma
 [DEBUG]  Setting combine=SUM for num_stride
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_pattern
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_stride
 [DEBUG]  Setting combine=SUM for num_pattern
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_pattern
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.control.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for indirect_addr
 [DEBUG]  Setting combine=SUM for indirect_addr
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for loop_levels
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for indirect_addr
 [DEBUG]  Setting combine=SUM for loop_levels
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for loop_levels
 [DEBUG]  Setting combine=SUM for latency_hide
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_dep
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
 [DEBUG]  Setting combine=SUM for data_dep
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for isa_decomp
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_dep
 [DEBUG]  Setting combine=SUM for isa_decomp
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for isa_decomp
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapath
 [DEBUG]  Setting combine=SUM for datapath
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapath
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_operation
 [DEBUG]  Setting combine=SUM for num_dims_operation
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_mask
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_operation
 [DEBUG]  Setting combine=SUM for num_dims_mask
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_mem_levels
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_mask
 [DEBUG]  Setting combine=SUM for num_mem_levels
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_mem_levels
 [DEBUG]  Setting combine=SUM for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.network.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_latency
 [DEBUG]  Setting combine=SUM for num_latency
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_bandwidth
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_latency
 [DEBUG]  Setting combine=SUM for num_bandwidth
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_topology
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_bandwidth
 [DEBUG]  Setting combine=SUM for num_topology
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sync_capability
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_topology
 [DEBUG]  Setting combine=SUM for num_sync_capability
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sync_capability
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.memory
 [DEBUG]  Accessing feature list: memory.num_cache
@@ -238,72 +238,72 @@ system - System Root - , combine=SUM, weight=1, bdc=None
 [DEBUG]  Setting combine=SUM for network
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.memory.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_cache
 [DEBUG]  Setting combine=SUM for num_cache
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_scratch
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_cache
 [DEBUG]  Setting combine=SUM for num_scratch
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sw_coherent
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_scratch
 [DEBUG]  Setting combine=SUM for num_sw_coherent
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_access_gran
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sw_coherent
 [DEBUG]  Setting combine=SUM for num_access_gran
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_props
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_access_gran
 [DEBUG]  Setting combine=SUM for num_props
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_props
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for node
 [DEBUG]  Setting combine=SUM for node
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for node
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_mov
 [DEBUG]  Setting combine=SUM for data_mov
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for control
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_mov
 [DEBUG]  Setting combine=SUM for control
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapaths_set
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for control
 [DEBUG]  Setting combine=SUM for datapaths_set
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapaths_set
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.data_mov.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for local_dma
 [DEBUG]  Setting combine=SUM for local_dma
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_stride
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for local_dma
 [DEBUG]  Setting combine=SUM for num_stride
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_pattern
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_stride
 [DEBUG]  Setting combine=SUM for num_pattern
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_pattern
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.control.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for indirect_addr
 [DEBUG]  Setting combine=SUM for indirect_addr
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for loop_levels
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for indirect_addr
 [DEBUG]  Setting combine=SUM for loop_levels
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for loop_levels
 [DEBUG]  Setting combine=SUM for latency_hide
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_dep
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
 [DEBUG]  Setting combine=SUM for data_dep
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for isa_decomp
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_dep
 [DEBUG]  Setting combine=SUM for isa_decomp
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for isa_decomp
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapath
 [DEBUG]  Setting combine=SUM for datapath
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapath
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_operation
 [DEBUG]  Setting combine=SUM for num_dims_operation
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_mask
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_operation
 [DEBUG]  Setting combine=SUM for num_dims_mask
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_mem_levels
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_mask
 [DEBUG]  Setting combine=SUM for num_mem_levels
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_mem_levels
 [DEBUG]  Setting combine=SUM for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.network.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_latency
 [DEBUG]  Setting combine=SUM for num_latency
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_bandwidth
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_latency
 [DEBUG]  Setting combine=SUM for num_bandwidth
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_topology
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_bandwidth
 [DEBUG]  Setting combine=SUM for num_topology
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sync_capability
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_topology
 [DEBUG]  Setting combine=SUM for num_sync_capability
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sync_capability
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.memory
 [DEBUG]  Accessing feature list: memory.num_cache
@@ -424,8 +424,8 @@ system - System Root - , combine=SUM, weight=1, bdc=None
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set
 [DEBUG]  Feature Tree = Unicore RISCV: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath
+[DEBUG]  Setting description=Scalar Datapath for datapath
 [DEBUG]  Setting name=scalar for datapath
-[DEBUG]  Setting description=Scalar Datapath for scalar
 [DEBUG]  Accessing feature list: scalar.num_dims_operation
 [DEBUG]  Setting num_dims=0 for num_dims_operation
 [DEBUG]  Accessing feature list: scalar.num_dims_mask
@@ -453,72 +453,72 @@ system - System Root - , combine=SUM, weight=1, bdc=None
 [DEBUG]  Setting combine=SUM for network
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.memory.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_cache
 [DEBUG]  Setting combine=SUM for num_cache
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_scratch
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_cache
 [DEBUG]  Setting combine=SUM for num_scratch
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sw_coherent
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_scratch
 [DEBUG]  Setting combine=SUM for num_sw_coherent
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_access_gran
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sw_coherent
 [DEBUG]  Setting combine=SUM for num_access_gran
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_props
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_access_gran
 [DEBUG]  Setting combine=SUM for num_props
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_props
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for node
 [DEBUG]  Setting combine=SUM for node
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for node
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_mov
 [DEBUG]  Setting combine=SUM for data_mov
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for control
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_mov
 [DEBUG]  Setting combine=SUM for control
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapaths_set
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for control
 [DEBUG]  Setting combine=SUM for datapaths_set
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapaths_set
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.data_mov.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for local_dma
 [DEBUG]  Setting combine=SUM for local_dma
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_stride
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for local_dma
 [DEBUG]  Setting combine=SUM for num_stride
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_pattern
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_stride
 [DEBUG]  Setting combine=SUM for num_pattern
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_pattern
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.control.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for indirect_addr
 [DEBUG]  Setting combine=SUM for indirect_addr
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for loop_levels
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for indirect_addr
 [DEBUG]  Setting combine=SUM for loop_levels
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for loop_levels
 [DEBUG]  Setting combine=SUM for latency_hide
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_dep
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
 [DEBUG]  Setting combine=SUM for data_dep
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for isa_decomp
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_dep
 [DEBUG]  Setting combine=SUM for isa_decomp
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for isa_decomp
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapath
 [DEBUG]  Setting combine=SUM for datapath
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapath
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_operation
 [DEBUG]  Setting combine=SUM for num_dims_operation
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_mask
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_operation
 [DEBUG]  Setting combine=SUM for num_dims_mask
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_mem_levels
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_mask
 [DEBUG]  Setting combine=SUM for num_mem_levels
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_mem_levels
 [DEBUG]  Setting combine=SUM for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.network.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_latency
 [DEBUG]  Setting combine=SUM for num_latency
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_bandwidth
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_latency
 [DEBUG]  Setting combine=SUM for num_bandwidth
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_topology
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_bandwidth
 [DEBUG]  Setting combine=SUM for num_topology
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sync_capability
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_topology
 [DEBUG]  Setting combine=SUM for num_sync_capability
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sync_capability
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.memory
 [DEBUG]  Accessing feature list: memory.num_cache
@@ -639,8 +639,8 @@ system - System Root - , combine=SUM, weight=1, bdc=None
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set
 [DEBUG]  Feature Tree = Unicore RISCV: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath
+[DEBUG]  Setting description=Scalar Datapath for datapath
 [DEBUG]  Setting name=scalar for datapath
-[DEBUG]  Setting description=Scalar Datapath for scalar
 [DEBUG]  Accessing feature list: scalar.num_dims_operation
 [DEBUG]  Setting num_dims=0 for num_dims_operation
 [DEBUG]  Accessing feature list: scalar.num_dims_mask
@@ -662,8 +662,8 @@ system - System Root - , combine=SUM, weight=1, bdc=None
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set
 [DEBUG]  Feature Tree = Xeon Skylake: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.scalar
+[DEBUG]  Setting description=AVX Datapath for scalar
 [DEBUG]  Setting name=avx for scalar
-[DEBUG]  Setting description=AVX Datapath for avx
 [DEBUG]  Accessing feature list: avx.num_dims_operation
 [DEBUG]  Setting num_dims=1 for num_dims_operation
 [DEBUG]  Accessing feature list: avx.num_dims_mask
@@ -700,72 +700,72 @@ system - System Root - , combine=SUM, weight=1, bdc=None
 [DEBUG]  Setting combine=SUM for network
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.memory.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_cache
 [DEBUG]  Setting combine=SUM for num_cache
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_scratch
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_cache
 [DEBUG]  Setting combine=SUM for num_scratch
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sw_coherent
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_scratch
 [DEBUG]  Setting combine=SUM for num_sw_coherent
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_access_gran
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sw_coherent
 [DEBUG]  Setting combine=SUM for num_access_gran
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_props
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_access_gran
 [DEBUG]  Setting combine=SUM for num_props
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_props
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for node
 [DEBUG]  Setting combine=SUM for node
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for node
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_mov
 [DEBUG]  Setting combine=SUM for data_mov
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for control
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_mov
 [DEBUG]  Setting combine=SUM for control
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapaths_set
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for control
 [DEBUG]  Setting combine=SUM for datapaths_set
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapaths_set
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.data_mov.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for local_dma
 [DEBUG]  Setting combine=SUM for local_dma
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_stride
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for local_dma
 [DEBUG]  Setting combine=SUM for num_stride
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_pattern
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_stride
 [DEBUG]  Setting combine=SUM for num_pattern
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_pattern
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.control.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for indirect_addr
 [DEBUG]  Setting combine=SUM for indirect_addr
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for loop_levels
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for indirect_addr
 [DEBUG]  Setting combine=SUM for loop_levels
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for loop_levels
 [DEBUG]  Setting combine=SUM for latency_hide
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_dep
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
 [DEBUG]  Setting combine=SUM for data_dep
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for isa_decomp
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_dep
 [DEBUG]  Setting combine=SUM for isa_decomp
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for isa_decomp
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapath
 [DEBUG]  Setting combine=SUM for datapath
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapath
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_operation
 [DEBUG]  Setting combine=SUM for num_dims_operation
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_mask
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_operation
 [DEBUG]  Setting combine=SUM for num_dims_mask
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_mem_levels
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_mask
 [DEBUG]  Setting combine=SUM for num_mem_levels
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_mem_levels
 [DEBUG]  Setting combine=SUM for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.network.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_latency
 [DEBUG]  Setting combine=SUM for num_latency
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_bandwidth
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_latency
 [DEBUG]  Setting combine=SUM for num_bandwidth
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_topology
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_bandwidth
 [DEBUG]  Setting combine=SUM for num_topology
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sync_capability
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_topology
 [DEBUG]  Setting combine=SUM for num_sync_capability
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sync_capability
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.memory
 [DEBUG]  Accessing feature list: memory.num_cache
@@ -886,8 +886,8 @@ system - System Root - , combine=SUM, weight=1, bdc=None
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set
 [DEBUG]  Feature Tree = Unicore RISCV: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath
+[DEBUG]  Setting description=Scalar Datapath for datapath
 [DEBUG]  Setting name=scalar for datapath
-[DEBUG]  Setting description=Scalar Datapath for scalar
 [DEBUG]  Accessing feature list: scalar.num_dims_operation
 [DEBUG]  Setting num_dims=0 for num_dims_operation
 [DEBUG]  Accessing feature list: scalar.num_dims_mask
@@ -909,8 +909,8 @@ system - System Root - , combine=SUM, weight=1, bdc=None
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set
 [DEBUG]  Feature Tree = NVIDIA Fermi: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.scalar
+[DEBUG]  Setting description=CUDA Datapath for scalar
 [DEBUG]  Setting name=cuda for scalar
-[DEBUG]  Setting description=CUDA Datapath for cuda
 [DEBUG]  Accessing feature list: cuda.num_dims_operation
 [DEBUG]  Setting num_dims=2 for num_dims_operation
 [DEBUG]  Accessing feature list: cuda.num_dims_mask
@@ -956,72 +956,72 @@ system - System Root - , combine=SUM, weight=1, bdc=None
 [DEBUG]  Setting combine=SUM for network
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.memory.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_cache
 [DEBUG]  Setting combine=SUM for num_cache
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_scratch
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_cache
 [DEBUG]  Setting combine=SUM for num_scratch
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sw_coherent
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_scratch
 [DEBUG]  Setting combine=SUM for num_sw_coherent
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_access_gran
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sw_coherent
 [DEBUG]  Setting combine=SUM for num_access_gran
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_props
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_access_gran
 [DEBUG]  Setting combine=SUM for num_props
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_props
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for node
 [DEBUG]  Setting combine=SUM for node
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for node
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_mov
 [DEBUG]  Setting combine=SUM for data_mov
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for control
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_mov
 [DEBUG]  Setting combine=SUM for control
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapaths_set
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for control
 [DEBUG]  Setting combine=SUM for datapaths_set
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapaths_set
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.data_mov.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for local_dma
 [DEBUG]  Setting combine=SUM for local_dma
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_stride
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for local_dma
 [DEBUG]  Setting combine=SUM for num_stride
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_pattern
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_stride
 [DEBUG]  Setting combine=SUM for num_pattern
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_pattern
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.control.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for indirect_addr
 [DEBUG]  Setting combine=SUM for indirect_addr
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for loop_levels
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for indirect_addr
 [DEBUG]  Setting combine=SUM for loop_levels
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for loop_levels
 [DEBUG]  Setting combine=SUM for latency_hide
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_dep
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
 [DEBUG]  Setting combine=SUM for data_dep
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for isa_decomp
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_dep
 [DEBUG]  Setting combine=SUM for isa_decomp
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for isa_decomp
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapath
 [DEBUG]  Setting combine=SUM for datapath
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapath
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_operation
 [DEBUG]  Setting combine=SUM for num_dims_operation
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_mask
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_operation
 [DEBUG]  Setting combine=SUM for num_dims_mask
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_mem_levels
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_mask
 [DEBUG]  Setting combine=SUM for num_mem_levels
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_mem_levels
 [DEBUG]  Setting combine=SUM for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.network.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_latency
 [DEBUG]  Setting combine=SUM for num_latency
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_bandwidth
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_latency
 [DEBUG]  Setting combine=SUM for num_bandwidth
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_topology
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_bandwidth
 [DEBUG]  Setting combine=SUM for num_topology
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sync_capability
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_topology
 [DEBUG]  Setting combine=SUM for num_sync_capability
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sync_capability
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.memory
 [DEBUG]  Accessing feature list: memory.num_cache
@@ -1142,8 +1142,8 @@ system - System Root - , combine=SUM, weight=1, bdc=None
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set
 [DEBUG]  Feature Tree = Unicore RISCV: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath
+[DEBUG]  Setting description=Scalar Datapath for datapath
 [DEBUG]  Setting name=scalar for datapath
-[DEBUG]  Setting description=Scalar Datapath for scalar
 [DEBUG]  Accessing feature list: scalar.num_dims_operation
 [DEBUG]  Setting num_dims=0 for num_dims_operation
 [DEBUG]  Accessing feature list: scalar.num_dims_mask
@@ -1165,8 +1165,8 @@ system - System Root - , combine=SUM, weight=1, bdc=None
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set
 [DEBUG]  Feature Tree = NVIDIA Fermi: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.scalar
+[DEBUG]  Setting description=CUDA Datapath for scalar
 [DEBUG]  Setting name=cuda for scalar
-[DEBUG]  Setting description=CUDA Datapath for cuda
 [DEBUG]  Accessing feature list: cuda.num_dims_operation
 [DEBUG]  Setting num_dims=2 for num_dims_operation
 [DEBUG]  Accessing feature list: cuda.num_dims_mask
@@ -1205,8 +1205,8 @@ system - System Root - , combine=SUM, weight=1, bdc=None
 [DEBUG]  Feature Tree = NVIDIA Turing: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set
 [DEBUG]  Accessing feature list: datapaths_set.cuda
+[DEBUG]  Setting description=Tensor Datapath for cuda
 [DEBUG]  Setting name=tensor for cuda
-[DEBUG]  Setting description=Tensor Datapath for tensor
 [DEBUG]  Accessing feature list: tensor.num_dims_operation
 [DEBUG]  Setting num_dims=3 for num_dims_operation
 [DEBUG]  Accessing feature list: tensor.num_dims_mask
@@ -2000,352 +2000,357 @@ system - System Root - , combine=SUM, weight=1, bdc=[15, 5, 11.7, 13.7]
 [DEBUG]  Accessing feature list: node.datapaths_set
 [DEBUG]  Accessing feature list: node.data_mov
 [INFO ]  Plot generated at: /utilizability/output/exp-1-stages
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  http://localhost:36715 "POST / HTTP/1.1" 200 28792
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  http://localhost:36715 "POST / HTTP/1.1" 200 27894
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  http://localhost:32923 "POST / HTTP/1.1" 200 28792
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  http://localhost:32923 "POST / HTTP/1.1" 200 27894
 [INFO ]  Plot generated at: /utilizability/output/exp-1-stages
 [INFO ]  Plot generated at: /utilizability/output/exp-1-cats
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  http://localhost:36715 "POST / HTTP/1.1" 200 30641
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  http://localhost:36715 "POST / HTTP/1.1" 200 45077
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  http://localhost:32923 "POST / HTTP/1.1" 200 30641
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  http://localhost:32923 "POST / HTTP/1.1" 200 45077
 [INFO ]  Plot generated at: /utilizability/output/exp-1-cats
 [INFO ]  Plot generated at: /utilizability/output/exp-1-cats-bars
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  http://localhost:36715 "POST / HTTP/1.1" 200 29233
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  http://localhost:36715 "POST / HTTP/1.1" 200 28299
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  http://localhost:32923 "POST / HTTP/1.1" 200 29233
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  http://localhost:32923 "POST / HTTP/1.1" 200 28299
 [INFO ]  Plot generated at: /utilizability/output/exp-1-cats-bars
 [INFO ]  Starting Experiment 2
 [DEBUG]  Feature Tree = Default HW Name: 
@@ -2358,72 +2363,72 @@ system - System Root - , combine=SUM, weight=1, bdc=[15, 5, 11.7, 13.7]
 [DEBUG]  Setting combine=SUM for network
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.memory.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_cache
 [DEBUG]  Setting combine=SUM for num_cache
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_scratch
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_cache
 [DEBUG]  Setting combine=SUM for num_scratch
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sw_coherent
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_scratch
 [DEBUG]  Setting combine=SUM for num_sw_coherent
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_access_gran
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sw_coherent
 [DEBUG]  Setting combine=SUM for num_access_gran
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_props
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_access_gran
 [DEBUG]  Setting combine=SUM for num_props
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_props
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for node
 [DEBUG]  Setting combine=SUM for node
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for node
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_mov
 [DEBUG]  Setting combine=SUM for data_mov
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for control
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_mov
 [DEBUG]  Setting combine=SUM for control
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapaths_set
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for control
 [DEBUG]  Setting combine=SUM for datapaths_set
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapaths_set
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.data_mov.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for local_dma
 [DEBUG]  Setting combine=SUM for local_dma
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_stride
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for local_dma
 [DEBUG]  Setting combine=SUM for num_stride
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_pattern
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_stride
 [DEBUG]  Setting combine=SUM for num_pattern
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_pattern
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.control.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for indirect_addr
 [DEBUG]  Setting combine=SUM for indirect_addr
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for loop_levels
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for indirect_addr
 [DEBUG]  Setting combine=SUM for loop_levels
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for loop_levels
 [DEBUG]  Setting combine=SUM for latency_hide
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_dep
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
 [DEBUG]  Setting combine=SUM for data_dep
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for isa_decomp
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_dep
 [DEBUG]  Setting combine=SUM for isa_decomp
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for isa_decomp
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapath
 [DEBUG]  Setting combine=SUM for datapath
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapath
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_operation
 [DEBUG]  Setting combine=SUM for num_dims_operation
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_mask
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_operation
 [DEBUG]  Setting combine=SUM for num_dims_mask
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_mem_levels
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_mask
 [DEBUG]  Setting combine=SUM for num_mem_levels
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_mem_levels
 [DEBUG]  Setting combine=SUM for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.network.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_latency
 [DEBUG]  Setting combine=SUM for num_latency
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_bandwidth
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_latency
 [DEBUG]  Setting combine=SUM for num_bandwidth
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_topology
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_bandwidth
 [DEBUG]  Setting combine=SUM for num_topology
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sync_capability
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_topology
 [DEBUG]  Setting combine=SUM for num_sync_capability
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sync_capability
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.memory
 [DEBUG]  Accessing feature list: memory.num_cache
@@ -2544,8 +2549,8 @@ system - System Root - , combine=SUM, weight=1, bdc=[15, 5, 11.7, 13.7]
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set
 [DEBUG]  Feature Tree = Unicore RISCV: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath
+[DEBUG]  Setting description=Scalar Datapath for datapath
 [DEBUG]  Setting name=scalar for datapath
-[DEBUG]  Setting description=Scalar Datapath for scalar
 [DEBUG]  Accessing feature list: scalar.num_dims_operation
 [DEBUG]  Setting num_dims=0 for num_dims_operation
 [DEBUG]  Accessing feature list: scalar.num_dims_mask
@@ -2566,8 +2571,8 @@ system - System Root - , combine=SUM, weight=1, bdc=[15, 5, 11.7, 13.7]
 [DEBUG]  Feature Tree = Google TPU: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set
 [DEBUG]  Accessing feature list: datapaths_set.scalar
+[DEBUG]  Setting description=Main Datapath for scalar
 [DEBUG]  Setting name=main for scalar
-[DEBUG]  Setting description=Main Datapath for main
 [DEBUG]  Accessing feature list: main.num_dims_operation
 [DEBUG]  Setting num_dims=2 for num_dims_operation
 [DEBUG]  Accessing feature list: main.num_dims_mask
@@ -2607,72 +2612,72 @@ system - System Root - , combine=SUM, weight=1, bdc=[15, 5, 11.7, 13.7]
 [DEBUG]  Setting combine=SUM for network
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.memory.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_cache
 [DEBUG]  Setting combine=SUM for num_cache
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_scratch
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_cache
 [DEBUG]  Setting combine=SUM for num_scratch
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sw_coherent
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_scratch
 [DEBUG]  Setting combine=SUM for num_sw_coherent
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_access_gran
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sw_coherent
 [DEBUG]  Setting combine=SUM for num_access_gran
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_props
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_access_gran
 [DEBUG]  Setting combine=SUM for num_props
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_props
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for node
 [DEBUG]  Setting combine=SUM for node
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for node
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_mov
 [DEBUG]  Setting combine=SUM for data_mov
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for control
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_mov
 [DEBUG]  Setting combine=SUM for control
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapaths_set
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for control
 [DEBUG]  Setting combine=SUM for datapaths_set
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapaths_set
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.data_mov.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for local_dma
 [DEBUG]  Setting combine=SUM for local_dma
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_stride
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for local_dma
 [DEBUG]  Setting combine=SUM for num_stride
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_pattern
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_stride
 [DEBUG]  Setting combine=SUM for num_pattern
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_pattern
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.control.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for indirect_addr
 [DEBUG]  Setting combine=SUM for indirect_addr
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for loop_levels
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for indirect_addr
 [DEBUG]  Setting combine=SUM for loop_levels
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for loop_levels
 [DEBUG]  Setting combine=SUM for latency_hide
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_dep
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
 [DEBUG]  Setting combine=SUM for data_dep
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for isa_decomp
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_dep
 [DEBUG]  Setting combine=SUM for isa_decomp
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for isa_decomp
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapath
 [DEBUG]  Setting combine=SUM for datapath
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapath
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_operation
 [DEBUG]  Setting combine=SUM for num_dims_operation
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_mask
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_operation
 [DEBUG]  Setting combine=SUM for num_dims_mask
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_mem_levels
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_mask
 [DEBUG]  Setting combine=SUM for num_mem_levels
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_mem_levels
 [DEBUG]  Setting combine=SUM for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.network.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_latency
 [DEBUG]  Setting combine=SUM for num_latency
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_bandwidth
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_latency
 [DEBUG]  Setting combine=SUM for num_bandwidth
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_topology
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_bandwidth
 [DEBUG]  Setting combine=SUM for num_topology
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sync_capability
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_topology
 [DEBUG]  Setting combine=SUM for num_sync_capability
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sync_capability
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.memory
 [DEBUG]  Accessing feature list: memory.num_cache
@@ -2793,8 +2798,8 @@ system - System Root - , combine=SUM, weight=1, bdc=[15, 5, 11.7, 13.7]
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set
 [DEBUG]  Feature Tree = Unicore RISCV: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath
+[DEBUG]  Setting description=Scalar Datapath for datapath
 [DEBUG]  Setting name=scalar for datapath
-[DEBUG]  Setting description=Scalar Datapath for scalar
 [DEBUG]  Accessing feature list: scalar.num_dims_operation
 [DEBUG]  Setting num_dims=0 for num_dims_operation
 [DEBUG]  Accessing feature list: scalar.num_dims_mask
@@ -2815,8 +2820,8 @@ system - System Root - , combine=SUM, weight=1, bdc=[15, 5, 11.7, 13.7]
 [DEBUG]  Feature Tree = Tesla NNA: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set
 [DEBUG]  Accessing feature list: datapaths_set.scalar
+[DEBUG]  Setting description=Main Datapath for scalar
 [DEBUG]  Setting name=main for scalar
-[DEBUG]  Setting description=Main Datapath for main
 [DEBUG]  Accessing feature list: main.num_dims_operation
 [DEBUG]  Setting num_dims=2 for num_dims_operation
 [DEBUG]  Accessing feature list: main.num_dims_mask
@@ -2859,72 +2864,72 @@ system - System Root - , combine=SUM, weight=1, bdc=[15, 5, 11.7, 13.7]
 [DEBUG]  Setting combine=SUM for network
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.memory.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_cache
 [DEBUG]  Setting combine=SUM for num_cache
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_scratch
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_cache
 [DEBUG]  Setting combine=SUM for num_scratch
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sw_coherent
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_scratch
 [DEBUG]  Setting combine=SUM for num_sw_coherent
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_access_gran
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sw_coherent
 [DEBUG]  Setting combine=SUM for num_access_gran
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_props
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_access_gran
 [DEBUG]  Setting combine=SUM for num_props
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_props
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for node
 [DEBUG]  Setting combine=SUM for node
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for node
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_mov
 [DEBUG]  Setting combine=SUM for data_mov
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for control
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_mov
 [DEBUG]  Setting combine=SUM for control
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapaths_set
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for control
 [DEBUG]  Setting combine=SUM for datapaths_set
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapaths_set
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.data_mov.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for local_dma
 [DEBUG]  Setting combine=SUM for local_dma
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_stride
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for local_dma
 [DEBUG]  Setting combine=SUM for num_stride
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_pattern
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_stride
 [DEBUG]  Setting combine=SUM for num_pattern
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_pattern
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.control.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for indirect_addr
 [DEBUG]  Setting combine=SUM for indirect_addr
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for loop_levels
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for indirect_addr
 [DEBUG]  Setting combine=SUM for loop_levels
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for loop_levels
 [DEBUG]  Setting combine=SUM for latency_hide
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_dep
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
 [DEBUG]  Setting combine=SUM for data_dep
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for isa_decomp
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_dep
 [DEBUG]  Setting combine=SUM for isa_decomp
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for isa_decomp
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapath
 [DEBUG]  Setting combine=SUM for datapath
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapath
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_operation
 [DEBUG]  Setting combine=SUM for num_dims_operation
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_mask
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_operation
 [DEBUG]  Setting combine=SUM for num_dims_mask
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_mem_levels
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_mask
 [DEBUG]  Setting combine=SUM for num_mem_levels
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_mem_levels
 [DEBUG]  Setting combine=SUM for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.network.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_latency
 [DEBUG]  Setting combine=SUM for num_latency
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_bandwidth
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_latency
 [DEBUG]  Setting combine=SUM for num_bandwidth
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_topology
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_bandwidth
 [DEBUG]  Setting combine=SUM for num_topology
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sync_capability
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_topology
 [DEBUG]  Setting combine=SUM for num_sync_capability
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sync_capability
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.memory
 [DEBUG]  Accessing feature list: memory.num_cache
@@ -3045,8 +3050,8 @@ system - System Root - , combine=SUM, weight=1, bdc=[15, 5, 11.7, 13.7]
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set
 [DEBUG]  Feature Tree = Unicore RISCV: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath
+[DEBUG]  Setting description=Scalar Datapath for datapath
 [DEBUG]  Setting name=scalar for datapath
-[DEBUG]  Setting description=Scalar Datapath for scalar
 [DEBUG]  Accessing feature list: scalar.num_dims_operation
 [DEBUG]  Setting num_dims=0 for num_dims_operation
 [DEBUG]  Accessing feature list: scalar.num_dims_mask
@@ -3067,8 +3072,8 @@ system - System Root - , combine=SUM, weight=1, bdc=[15, 5, 11.7, 13.7]
 [DEBUG]  Feature Tree = TVM's VTA: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set
 [DEBUG]  Accessing feature list: datapaths_set.scalar
+[DEBUG]  Setting description=ALU Datapath for scalar
 [DEBUG]  Setting name=alu for scalar
-[DEBUG]  Setting description=ALU Datapath for alu
 [DEBUG]  Accessing feature list: alu.num_dims_operation
 [DEBUG]  Setting num_dims=1 for num_dims_operation
 [DEBUG]  Accessing feature list: alu.num_dims_mask
@@ -3077,8 +3082,8 @@ system - System Root - , combine=SUM, weight=1, bdc=[15, 5, 11.7, 13.7]
 [DEBUG]  Setting num_dims=0 for num_mem_levels
 [DEBUG]  Accessing feature list: alu.latency_hide
 [DEBUG]  Setting num_dims=0 for latency_hide
+[DEBUG]  Setting description=GEMM Datapath for scalar
 [DEBUG]  Setting name=gemm for scalar
-[DEBUG]  Setting description=GEMM Datapath for gemm
 [DEBUG]  Accessing feature list: gemm.num_dims_operation
 [DEBUG]  Setting num_dims=2 for num_dims_operation
 [DEBUG]  Accessing feature list: gemm.num_dims_mask
@@ -3121,72 +3126,72 @@ system - System Root - , combine=SUM, weight=1, bdc=[15, 5, 11.7, 13.7]
 [DEBUG]  Setting combine=SUM for network
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.memory.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_cache
 [DEBUG]  Setting combine=SUM for num_cache
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_scratch
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_cache
 [DEBUG]  Setting combine=SUM for num_scratch
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sw_coherent
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_scratch
 [DEBUG]  Setting combine=SUM for num_sw_coherent
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_access_gran
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sw_coherent
 [DEBUG]  Setting combine=SUM for num_access_gran
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_props
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_access_gran
 [DEBUG]  Setting combine=SUM for num_props
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_props
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for node
 [DEBUG]  Setting combine=SUM for node
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for node
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_mov
 [DEBUG]  Setting combine=SUM for data_mov
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for control
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_mov
 [DEBUG]  Setting combine=SUM for control
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapaths_set
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for control
 [DEBUG]  Setting combine=SUM for datapaths_set
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapaths_set
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.data_mov.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for local_dma
 [DEBUG]  Setting combine=SUM for local_dma
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_stride
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for local_dma
 [DEBUG]  Setting combine=SUM for num_stride
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_pattern
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_stride
 [DEBUG]  Setting combine=SUM for num_pattern
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_pattern
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.control.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for indirect_addr
 [DEBUG]  Setting combine=SUM for indirect_addr
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for loop_levels
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for indirect_addr
 [DEBUG]  Setting combine=SUM for loop_levels
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for loop_levels
 [DEBUG]  Setting combine=SUM for latency_hide
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_dep
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
 [DEBUG]  Setting combine=SUM for data_dep
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for isa_decomp
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_dep
 [DEBUG]  Setting combine=SUM for isa_decomp
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for isa_decomp
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapath
 [DEBUG]  Setting combine=SUM for datapath
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapath
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_operation
 [DEBUG]  Setting combine=SUM for num_dims_operation
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_mask
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_operation
 [DEBUG]  Setting combine=SUM for num_dims_mask
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_mem_levels
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_mask
 [DEBUG]  Setting combine=SUM for num_mem_levels
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_mem_levels
 [DEBUG]  Setting combine=SUM for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.network.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_latency
 [DEBUG]  Setting combine=SUM for num_latency
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_bandwidth
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_latency
 [DEBUG]  Setting combine=SUM for num_bandwidth
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_topology
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_bandwidth
 [DEBUG]  Setting combine=SUM for num_topology
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sync_capability
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_topology
 [DEBUG]  Setting combine=SUM for num_sync_capability
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sync_capability
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.memory
 [DEBUG]  Accessing feature list: memory.num_cache
@@ -3307,8 +3312,8 @@ system - System Root - , combine=SUM, weight=1, bdc=[15, 5, 11.7, 13.7]
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set
 [DEBUG]  Feature Tree = Unicore RISCV: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath
+[DEBUG]  Setting description=Scalar Datapath for datapath
 [DEBUG]  Setting name=scalar for datapath
-[DEBUG]  Setting description=Scalar Datapath for scalar
 [DEBUG]  Accessing feature list: scalar.num_dims_operation
 [DEBUG]  Setting num_dims=0 for num_dims_operation
 [DEBUG]  Accessing feature list: scalar.num_dims_mask
@@ -3329,8 +3334,8 @@ system - System Root - , combine=SUM, weight=1, bdc=[15, 5, 11.7, 13.7]
 [DEBUG]  Feature Tree = Simba: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set
 [DEBUG]  Accessing feature list: datapaths_set.scalar
+[DEBUG]  Setting description=Simba PE Datapath for scalar
 [DEBUG]  Setting name=simba_pe for scalar
-[DEBUG]  Setting description=Simba PE Datapath for simba_pe
 [DEBUG]  Accessing feature list: simba_pe.num_dims_operation
 [DEBUG]  Setting num_dims=3 for num_dims_operation
 [DEBUG]  Accessing feature list: simba_pe.num_dims_mask
@@ -3339,8 +3344,8 @@ system - System Root - , combine=SUM, weight=1, bdc=[15, 5, 11.7, 13.7]
 [DEBUG]  Setting num_dims=1 for num_mem_levels
 [DEBUG]  Accessing feature list: simba_pe.latency_hide
 [DEBUG]  Setting num_dims=0 for latency_hide
+[DEBUG]  Setting description=Global PE Scalar Datapath for scalar
 [DEBUG]  Setting name=global_pe_scalar for scalar
-[DEBUG]  Setting description=Global PE Scalar Datapath for global_pe_scalar
 [DEBUG]  Accessing feature list: global_pe_scalar.num_dims_operation
 [DEBUG]  Setting num_dims=0 for num_dims_operation
 [DEBUG]  Accessing feature list: global_pe_scalar.num_dims_mask
@@ -3401,72 +3406,72 @@ system - System Root - , combine=SUM, weight=1, bdc=[15, 5, 11.7, 13.7]
 [DEBUG]  Setting combine=SUM for network
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.memory.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_cache
 [DEBUG]  Setting combine=SUM for num_cache
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_scratch
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_cache
 [DEBUG]  Setting combine=SUM for num_scratch
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sw_coherent
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_scratch
 [DEBUG]  Setting combine=SUM for num_sw_coherent
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_access_gran
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sw_coherent
 [DEBUG]  Setting combine=SUM for num_access_gran
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_props
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_access_gran
 [DEBUG]  Setting combine=SUM for num_props
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_props
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for node
 [DEBUG]  Setting combine=SUM for node
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for node
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_mov
 [DEBUG]  Setting combine=SUM for data_mov
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for control
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_mov
 [DEBUG]  Setting combine=SUM for control
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapaths_set
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for control
 [DEBUG]  Setting combine=SUM for datapaths_set
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapaths_set
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.data_mov.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for local_dma
 [DEBUG]  Setting combine=SUM for local_dma
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_stride
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for local_dma
 [DEBUG]  Setting combine=SUM for num_stride
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_pattern
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_stride
 [DEBUG]  Setting combine=SUM for num_pattern
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_pattern
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.control.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for indirect_addr
 [DEBUG]  Setting combine=SUM for indirect_addr
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for loop_levels
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for indirect_addr
 [DEBUG]  Setting combine=SUM for loop_levels
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for loop_levels
 [DEBUG]  Setting combine=SUM for latency_hide
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_dep
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
 [DEBUG]  Setting combine=SUM for data_dep
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for isa_decomp
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_dep
 [DEBUG]  Setting combine=SUM for isa_decomp
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for isa_decomp
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapath
 [DEBUG]  Setting combine=SUM for datapath
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapath
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_operation
 [DEBUG]  Setting combine=SUM for num_dims_operation
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_mask
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_operation
 [DEBUG]  Setting combine=SUM for num_dims_mask
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_mem_levels
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_mask
 [DEBUG]  Setting combine=SUM for num_mem_levels
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_mem_levels
 [DEBUG]  Setting combine=SUM for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.network.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_latency
 [DEBUG]  Setting combine=SUM for num_latency
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_bandwidth
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_latency
 [DEBUG]  Setting combine=SUM for num_bandwidth
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_topology
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_bandwidth
 [DEBUG]  Setting combine=SUM for num_topology
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sync_capability
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_topology
 [DEBUG]  Setting combine=SUM for num_sync_capability
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sync_capability
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.memory
 [DEBUG]  Accessing feature list: memory.num_cache
@@ -3587,8 +3592,8 @@ system - System Root - , combine=SUM, weight=1, bdc=[15, 5, 11.7, 13.7]
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set
 [DEBUG]  Feature Tree = Unicore RISCV: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath
+[DEBUG]  Setting description=Scalar Datapath for datapath
 [DEBUG]  Setting name=scalar for datapath
-[DEBUG]  Setting description=Scalar Datapath for scalar
 [DEBUG]  Accessing feature list: scalar.num_dims_operation
 [DEBUG]  Setting num_dims=0 for num_dims_operation
 [DEBUG]  Accessing feature list: scalar.num_dims_mask
@@ -3609,12 +3614,12 @@ system - System Root - , combine=SUM, weight=1, bdc=[15, 5, 11.7, 13.7]
 [DEBUG]  Feature Tree = Intel SH: 
 [DEBUG]  Accessing feature list: system.nodetypes_set
 [DEBUG]  Accessing feature list: nodetypes_set.node
+[DEBUG]  Setting description=DSP Node for node
 [DEBUG]  Setting name=dsp for node
-[DEBUG]  Setting description=DSP Node for dsp
 [DEBUG]  Accessing feature list: dsp.datapaths_set
 [DEBUG]  Accessing feature list: datapaths_set.scalar
+[DEBUG]  Setting description=DSP Vector Datapath for scalar
 [DEBUG]  Setting name=dsp_vec for scalar
-[DEBUG]  Setting description=DSP Vector Datapath for dsp_vec
 [DEBUG]  Accessing feature list: dsp_vec.num_dims_operation
 [DEBUG]  Setting num_dims=1 for num_dims_operation
 [DEBUG]  Accessing feature list: dsp_vec.num_dims_mask
@@ -3623,8 +3628,8 @@ system - System Root - , combine=SUM, weight=1, bdc=[15, 5, 11.7, 13.7]
 [DEBUG]  Setting num_dims=1 for num_mem_levels
 [DEBUG]  Accessing feature list: dsp_vec.latency_hide
 [DEBUG]  Setting num_dims=0 for latency_hide
+[DEBUG]  Setting description=DSP Scalar Datapath for scalar
 [DEBUG]  Setting name=dsp_sca for scalar
-[DEBUG]  Setting description=DSP Scalar Datapath for dsp_sca
 [DEBUG]  Accessing feature list: dsp_sca.num_dims_operation
 [DEBUG]  Setting num_dims=0 for num_dims_operation
 [DEBUG]  Accessing feature list: dsp_sca.num_dims_mask
@@ -3647,12 +3652,12 @@ system - System Root - , combine=SUM, weight=1, bdc=[15, 5, 11.7, 13.7]
 [DEBUG]  Setting num_dims=0 for latency_hide
 [DEBUG]  Accessing feature list: dsp.control.data_dep
 [DEBUG]  Setting num_dims=2 for data_dep
+[DEBUG]  Setting description=DL Grid Node for node
 [DEBUG]  Setting name=dl_grid for node
-[DEBUG]  Setting description=DL Grid Node for dl_grid
 [DEBUG]  Accessing feature list: dl_grid.datapaths_set
 [DEBUG]  Accessing feature list: datapaths_set.scalar
+[DEBUG]  Setting description=DL Compute Grid Datapath for scalar
 [DEBUG]  Setting name=dl_comp for scalar
-[DEBUG]  Setting description=DL Compute Grid Datapath for dl_comp
 [DEBUG]  Accessing feature list: dl_comp.num_dims_operation
 [DEBUG]  Setting num_dims=3 for num_dims_operation
 [DEBUG]  Accessing feature list: dl_comp.num_dims_mask
@@ -3675,12 +3680,12 @@ system - System Root - , combine=SUM, weight=1, bdc=[15, 5, 11.7, 13.7]
 [DEBUG]  Setting num_dims=0 for latency_hide
 [DEBUG]  Accessing feature list: dl_grid.control.data_dep
 [DEBUG]  Setting num_dims=2 for data_dep
+[DEBUG]  Setting description=IA SNC Node for node
 [DEBUG]  Setting name=ia_snc for node
-[DEBUG]  Setting description=IA SNC Node for ia_snc
 [DEBUG]  Accessing feature list: ia_snc.datapaths_set
 [DEBUG]  Accessing feature list: datapaths_set.scalar
+[DEBUG]  Setting description=AVX Datapath for scalar
 [DEBUG]  Setting name=avx for scalar
-[DEBUG]  Setting description=AVX Datapath for avx
 [DEBUG]  Accessing feature list: avx.num_dims_operation
 [DEBUG]  Setting num_dims=1 for num_dims_operation
 [DEBUG]  Accessing feature list: avx.num_dims_mask
@@ -3689,8 +3694,8 @@ system - System Root - , combine=SUM, weight=1, bdc=[15, 5, 11.7, 13.7]
 [DEBUG]  Setting num_dims=1 for num_mem_levels
 [DEBUG]  Accessing feature list: avx.latency_hide
 [DEBUG]  Setting num_dims=0 for latency_hide
-[DEBUG]  Setting name=scalar for scalar
 [DEBUG]  Setting description=Scalar Datapath for scalar
+[DEBUG]  Setting name=scalar for scalar
 [DEBUG]  Accessing feature list: scalar.num_dims_operation
 [DEBUG]  Setting num_dims=0 for num_dims_operation
 [DEBUG]  Accessing feature list: scalar.num_dims_mask
@@ -4954,20 +4959,20 @@ system - System Root - , combine=SUM, weight=1, bdc=[29, 12, 27.7, 21.7]
 [DEBUG]  Accessing feature list: ia_snc.datapaths_set
 [DEBUG]  Accessing feature list: ia_snc.data_mov
 [INFO ]  Plot generated at: /utilizability/output/exp-2-stages
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  http://localhost:36715 "POST / HTTP/1.1" 200 28713
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  http://localhost:36715 "POST / HTTP/1.1" 200 27542
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  http://localhost:32923 "POST / HTTP/1.1" 200 28713
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  http://localhost:32923 "POST / HTTP/1.1" 200 27542
 [INFO ]  Plot generated at: /utilizability/output/exp-2-stages
 [INFO ]  Plot generated at: /utilizability/output/exp-2-cats
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  http://localhost:36715 "POST / HTTP/1.1" 200 31513
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  http://localhost:36715 "POST / HTTP/1.1" 200 53657
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  http://localhost:32923 "POST / HTTP/1.1" 200 31513
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  http://localhost:32923 "POST / HTTP/1.1" 200 53657
 [INFO ]  Plot generated at: /utilizability/output/exp-2-cats
 [INFO ]  Plot generated at: /utilizability/output/exp-2-cats-bars
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  http://localhost:36715 "POST / HTTP/1.1" 200 29345
-[DEBUG]  Starting new HTTP connection (1): localhost:36715
-[DEBUG]  http://localhost:36715 "POST / HTTP/1.1" 200 28135
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  http://localhost:32923 "POST / HTTP/1.1" 200 29345
+[DEBUG]  Starting new HTTP connection (1): localhost:32923
+[DEBUG]  http://localhost:32923 "POST / HTTP/1.1" 200 28135
 [INFO ]  Plot generated at: /utilizability/output/exp-2-cats-bars

@@ -51,8 +51,8 @@ def gen_markdown_readme(ft, directory):
                 anchor += feature.longname.strip().lower().replace(" ", "-")
 
             out = ( "{}**{}**{}" + 
-                    "{}{}</br>" + 
-                    "{} {} {}{} \n").format(
+                    " {}{}</br>" + 
+                    " {} {} {}{} \n").format(
 
                         "  "*tree_level + "- ",
                         "[{}](#{})".format(feature.longname.strip(), anchor),
