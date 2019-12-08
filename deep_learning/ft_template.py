@@ -1,7 +1,13 @@
+import os,sys
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 from feature_tree import *
 
 
 class DeepLearning_FT_Template(FeatureTree):
+
+    def get_dir():
+        return os.path.dirname(os.path.abspath(__file__))
 
     def __init__(self):
         super().__init__()
@@ -30,7 +36,7 @@ class DeepLearning_FT_Template(FeatureTree):
                         ]),
                         Feature("control", "Control", "", [
                             Feature("indirect_addr", "Indirect Addressing",     "Node supports indirect addressing [y/n]"),
-                            Feature("loop_levels",   "Loop Levels ",            "No. of loop levels from full control flow"),
+                            Feature("loop_levels",   "Loop Levels",            "No. of loop levels from full control flow"),
                             Feature("latency_hide",  "Latency Hiding",          "No. of latency hiding widgets [Threads, Double Buffers]"),
                             Feature("data_dep",      "Data Dependency",         "Sync. support between data producer and consumer"),
                             Feature("isa_decomp",    "ISA Specialization",      "Avg no. of ISA commands per operator"),
@@ -207,4 +213,9 @@ class DeepLearning_FT_Template(FeatureTree):
                 cats[4][i] += move[i]
 
         return copy.deepcopy(cats)
+
+
+    # Use this function to control what is printed when generating 
+    def illustrator(self):
+        pass
 

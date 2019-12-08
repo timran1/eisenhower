@@ -1,4 +1,4 @@
-from deep_learning_ft_template import *
+from ft_template import *
 
 
 ####

@@ -1,4 +1,4 @@
-import logging, os
+import logging, os, sys
 
 def setup_logging(log_filename):
 
@@ -25,3 +25,7 @@ def setup_logging(log_filename):
     rootLogger.addHandler(consoleHandler)
 
     rootLogger.info("Logging setup")
+
+def get_class_dir(obj):
+    dir = os.path.dirname(os.path.abspath(sys.modules[obj.__class__.__module__].__file__))
+    return dir

@@ -5,8 +5,6 @@ import logging
 import statistics
 import os, math
 
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-
 class Scale(Enum):
     LINEAR = 0
     EXP = 1
@@ -200,6 +198,15 @@ class Feature():
 
         return self.bdc
 
+    def is_eval_done(self):
+        if self.bdc is None:
+            return False
+
+        for f in self.sub_features:
+            if f.is_eval_done() is None:
+                return False
+
+        return True
 
     def to_stdout(self, tree_level=0):
         # This flag is for debugging only.
@@ -323,6 +330,8 @@ class FeatureTree():
         self.root.eval_bdc(self.stage_filter)
         return self.root.bdc
 
+    def is_eval_done(self):
+        return self.root.is_eval_done()
 
     def get_bdc(self):
         return self.root.bdc

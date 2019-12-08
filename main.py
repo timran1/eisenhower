@@ -1,9 +1,10 @@
 from helpers import *
 from plot import *
+from illustrator import *
 from collections import OrderedDict
 
 # Current experiment files
-from deep_learning_fts import *
+from deep_learning import *
 
 
 def experiment_1(output_dir):
@@ -66,7 +67,7 @@ if __name__ == "__main__":
     # Print the Deep Learning Feature Tree Template
     dl_ftt = DeepLearning_FT_Template()
     logging.info (dl_ftt.to_stdout() + "\n")
+    gen_markdown_readme(dl_ftt, get_class_dir(dl_ftt))
 
     experiment_1(output_dir)
     experiment_2(output_dir)
-    

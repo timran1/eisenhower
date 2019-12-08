@@ -209,7 +209,7 @@ system - System Root - , combine=SUM, weight=1, bdc=None
                 num_pattern - Patterns - No. of movement patterns [Peer-to-Peer, Broadcast, Scatter], stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=None, num_dims=0
             control - Control - , combine=SUM, weight=1, bdc=None
                 indirect_addr - Indirect Addressing - Node supports indirect addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=None, num_dims=0
-                loop_levels - Loop Levels  - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=None, num_dims=0
+                loop_levels - Loop Levels - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=None, num_dims=0
                 latency_hide - Latency Hiding - No. of latency hiding widgets [Threads, Double Buffers], stage_mask=[0, 0, 1, 1], weight=1, scale=Exponential, bdc=None, num_dims=0
                 data_dep - Data Dependency - Sync. support between data producer and consumer, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=None, num_dims=0
                 isa_decomp - ISA Specialization - Avg no. of ISA commands per operator, stage_mask=[1, 1, 1, 1], weight=1, scale=Linear, bdc=None, num_dims=0
@@ -226,6 +226,7 @@ system - System Root - , combine=SUM, weight=1, bdc=None
         num_sync_capability - Sync Capability - No. of inter-node sync. capabilities [Atomics, Interrupt], stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=None, num_dims=0
 
 
+[INFO ]  Generated markdown files at: /utilizability/deep_learning
 [INFO ]  Starting Experiment 1
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system
@@ -1367,7 +1368,7 @@ system - System Root - , combine=SUM, weight=1, bdc=[5, 0, 6, 0]
                 num_pattern - Patterns - No. of movement patterns [Peer-to-Peer, Broadcast, Scatter], stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
             control - Control - , combine=SUM, weight=1, bdc=[2, 0, 2, 0]
                 indirect_addr - Indirect Addressing - Node supports indirect addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
-                loop_levels - Loop Levels  - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+                loop_levels - Loop Levels - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
                 latency_hide - Latency Hiding - No. of latency hiding widgets [Threads, Double Buffers], stage_mask=[0, 0, 1, 1], weight=1, scale=Exponential, bdc=[0, 0, 0, 0], num_dims=0
                 data_dep - Data Dependency - Sync. support between data producer and consumer, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[2, 0, 2, 0], num_dims=2
                 isa_decomp - ISA Specialization - Avg no. of ISA commands per operator, stage_mask=[1, 1, 1, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
@@ -1573,7 +1574,7 @@ system - System Root - , combine=SUM, weight=1, bdc=[7, 4, 11.7, 14.7]
                 num_pattern - Patterns - No. of movement patterns [Peer-to-Peer, Broadcast, Scatter], stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
             control - Control - , combine=SUM, weight=1, bdc=[2, 0, 4.7, 2.7]
                 indirect_addr - Indirect Addressing - Node supports indirect addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
-                loop_levels - Loop Levels  - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+                loop_levels - Loop Levels - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
                 latency_hide - Latency Hiding - No. of latency hiding widgets [Threads, Double Buffers], stage_mask=[0, 0, 1, 1], weight=1, scale=Exponential, bdc=[0, 0, 2.7, 2.7], num_dims=1
                 data_dep - Data Dependency - Sync. support between data producer and consumer, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[2, 0, 2, 0], num_dims=2
                 isa_decomp - ISA Specialization - Avg no. of ISA commands per operator, stage_mask=[1, 1, 1, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
@@ -1759,7 +1760,7 @@ system - System Root - , combine=SUM, weight=1, bdc=[10, 5, 11.7, 13.7]
                 num_pattern - Patterns - No. of movement patterns [Peer-to-Peer, Broadcast, Scatter], stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
             control - Control - , combine=SUM, weight=1, bdc=[2, 0, 4.7, 2.7]
                 indirect_addr - Indirect Addressing - Node supports indirect addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
-                loop_levels - Loop Levels  - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+                loop_levels - Loop Levels - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
                 latency_hide - Latency Hiding - No. of latency hiding widgets [Threads, Double Buffers], stage_mask=[0, 0, 1, 1], weight=1, scale=Exponential, bdc=[0, 0, 2.7, 2.7], num_dims=1
                 data_dep - Data Dependency - Sync. support between data producer and consumer, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[2, 0, 2, 0], num_dims=2
                 isa_decomp - ISA Specialization - Avg no. of ISA commands per operator, stage_mask=[1, 1, 1, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
@@ -1965,7 +1966,7 @@ system - System Root - , combine=SUM, weight=1, bdc=[15, 5, 11.7, 13.7]
                 num_pattern - Patterns - No. of movement patterns [Peer-to-Peer, Broadcast, Scatter], stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
             control - Control - , combine=SUM, weight=1, bdc=[2, 0, 4.7, 2.7]
                 indirect_addr - Indirect Addressing - Node supports indirect addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
-                loop_levels - Loop Levels  - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+                loop_levels - Loop Levels - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
                 latency_hide - Latency Hiding - No. of latency hiding widgets [Threads, Double Buffers], stage_mask=[0, 0, 1, 1], weight=1, scale=Exponential, bdc=[0, 0, 2.7, 2.7], num_dims=1
                 data_dep - Data Dependency - Sync. support between data producer and consumer, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[2, 0, 2, 0], num_dims=2
                 isa_decomp - ISA Specialization - Avg no. of ISA commands per operator, stage_mask=[1, 1, 1, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
@@ -1999,392 +2000,352 @@ system - System Root - , combine=SUM, weight=1, bdc=[15, 5, 11.7, 13.7]
 [DEBUG]  Accessing feature list: node.datapaths_set
 [DEBUG]  Accessing feature list: node.data_mov
 [INFO ]  Plot generated at: /utilizability/output/exp-1-stages
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  http://localhost:37569 "POST / HTTP/1.1" 200 28792
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  http://localhost:37569 "POST / HTTP/1.1" 200 27894
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  http://localhost:36715 "POST / HTTP/1.1" 200 28792
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  http://localhost:36715 "POST / HTTP/1.1" 200 27894
 [INFO ]  Plot generated at: /utilizability/output/exp-1-stages
 [INFO ]  Plot generated at: /utilizability/output/exp-1-cats
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  http://localhost:37569 "POST / HTTP/1.1" 200 30641
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  http://localhost:37569 "POST / HTTP/1.1" 200 45077
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  http://localhost:36715 "POST / HTTP/1.1" 200 30641
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  http://localhost:36715 "POST / HTTP/1.1" 200 45077
 [INFO ]  Plot generated at: /utilizability/output/exp-1-cats
 [INFO ]  Plot generated at: /utilizability/output/exp-1-cats-bars
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  http://localhost:37569 "POST / HTTP/1.1" 200 29233
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  http://localhost:37569 "POST / HTTP/1.1" 200 28299
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  http://localhost:36715 "POST / HTTP/1.1" 200 29233
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  http://localhost:36715 "POST / HTTP/1.1" 200 28299
 [INFO ]  Plot generated at: /utilizability/output/exp-1-cats-bars
 [INFO ]  Starting Experiment 2
 [DEBUG]  Feature Tree = Default HW Name: 
@@ -3926,7 +3887,7 @@ system - System Root - , combine=SUM, weight=1, bdc=[10, 0, 9, 0]
                 num_pattern - Patterns - No. of movement patterns [Peer-to-Peer, Broadcast, Scatter], stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
             control - Control - , combine=SUM, weight=1, bdc=[1, 0, 1, 0]
                 indirect_addr - Indirect Addressing - Node supports indirect addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
-                loop_levels - Loop Levels  - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+                loop_levels - Loop Levels - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
                 latency_hide - Latency Hiding - No. of latency hiding widgets [Threads, Double Buffers], stage_mask=[0, 0, 1, 1], weight=1, scale=Exponential, bdc=[0, 0, 0, 0], num_dims=0
                 data_dep - Data Dependency - Sync. support between data producer and consumer, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[1, 0, 1, 0], num_dims=1
                 isa_decomp - ISA Specialization - Avg no. of ISA commands per operator, stage_mask=[1, 1, 1, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
@@ -4107,7 +4068,7 @@ system - System Root - , combine=SUM, weight=1, bdc=[14, 0, 11, 0]
                 num_pattern - Patterns - No. of movement patterns [Peer-to-Peer, Broadcast, Scatter], stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
             control - Control - , combine=SUM, weight=1, bdc=[1, 0, 1, 0]
                 indirect_addr - Indirect Addressing - Node supports indirect addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
-                loop_levels - Loop Levels  - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=1
+                loop_levels - Loop Levels - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=1
                 latency_hide - Latency Hiding - No. of latency hiding widgets [Threads, Double Buffers], stage_mask=[0, 0, 1, 1], weight=1, scale=Exponential, bdc=[0, 0, 0, 0], num_dims=0
                 data_dep - Data Dependency - Sync. support between data producer and consumer, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[1, 0, 1, 0], num_dims=1
                 isa_decomp - ISA Specialization - Avg no. of ISA commands per operator, stage_mask=[1, 1, 1, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
@@ -4313,7 +4274,7 @@ system - System Root - , combine=SUM, weight=1, bdc=[15, 0, 12.7, 0]
                 num_pattern - Patterns - No. of movement patterns [Peer-to-Peer, Broadcast, Scatter], stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
             control - Control - , combine=SUM, weight=1, bdc=[1, 0, 3.7, 0]
                 indirect_addr - Indirect Addressing - Node supports indirect addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
-                loop_levels - Loop Levels  - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=2
+                loop_levels - Loop Levels - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=2
                 latency_hide - Latency Hiding - No. of latency hiding widgets [Threads, Double Buffers], stage_mask=[0, 0, 1, 1], weight=1, scale=Exponential, bdc=[0, 0, 2.7, 0], num_dims=1
                 data_dep - Data Dependency - Sync. support between data producer and consumer, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[1, 0, 1, 0], num_dims=1
                 isa_decomp - ISA Specialization - Avg no. of ISA commands per operator, stage_mask=[1, 1, 1, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
@@ -4524,7 +4485,7 @@ system - System Root - , combine=SUM, weight=1, bdc=[15, 7, 11, 13]
                 num_pattern - Patterns - No. of movement patterns [Peer-to-Peer, Broadcast, Scatter], stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=[0, 2, 0, 2], num_dims=2
             control - Control - , combine=SUM, weight=1, bdc=[2, 0, 2, 0]
                 indirect_addr - Indirect Addressing - Node supports indirect addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
-                loop_levels - Loop Levels  - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+                loop_levels - Loop Levels - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
                 latency_hide - Latency Hiding - No. of latency hiding widgets [Threads, Double Buffers], stage_mask=[0, 0, 1, 1], weight=1, scale=Exponential, bdc=[0, 0, 0, 0], num_dims=0
                 data_dep - Data Dependency - Sync. support between data producer and consumer, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[2, 0, 2, 0], num_dims=2
                 isa_decomp - ISA Specialization - Avg no. of ISA commands per operator, stage_mask=[1, 1, 1, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
@@ -4914,7 +4875,7 @@ system - System Root - , combine=SUM, weight=1, bdc=[29, 12, 27.7, 21.7]
                 num_pattern - Patterns - No. of movement patterns [Peer-to-Peer, Broadcast, Scatter], stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=[0, 3, 0, 3], num_dims=3
             control - Control - , combine=SUM, weight=1, bdc=[2, 0, 2, 0]
                 indirect_addr - Indirect Addressing - Node supports indirect addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
-                loop_levels - Loop Levels  - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+                loop_levels - Loop Levels - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
                 latency_hide - Latency Hiding - No. of latency hiding widgets [Threads, Double Buffers], stage_mask=[0, 0, 1, 1], weight=1, scale=Exponential, bdc=[0, 0, 0, 0], num_dims=0
                 data_dep - Data Dependency - Sync. support between data producer and consumer, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[2, 0, 2, 0], num_dims=2
                 isa_decomp - ISA Specialization - Avg no. of ISA commands per operator, stage_mask=[1, 1, 1, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
@@ -4936,7 +4897,7 @@ system - System Root - , combine=SUM, weight=1, bdc=[29, 12, 27.7, 21.7]
                 num_pattern - Patterns - No. of movement patterns [Peer-to-Peer, Broadcast, Scatter], stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=[0, 2, 0, 2], num_dims=2
             control - Control - , combine=SUM, weight=1, bdc=[2, 1, 2, 0]
                 indirect_addr - Indirect Addressing - Node supports indirect addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 1, 0, 0], num_dims=1
-                loop_levels - Loop Levels  - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+                loop_levels - Loop Levels - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
                 latency_hide - Latency Hiding - No. of latency hiding widgets [Threads, Double Buffers], stage_mask=[0, 0, 1, 1], weight=1, scale=Exponential, bdc=[0, 0, 0, 0], num_dims=0
                 data_dep - Data Dependency - Sync. support between data producer and consumer, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[2, 0, 2, 0], num_dims=2
                 isa_decomp - ISA Specialization - Avg no. of ISA commands per operator, stage_mask=[1, 1, 1, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
@@ -4953,7 +4914,7 @@ system - System Root - , combine=SUM, weight=1, bdc=[29, 12, 27.7, 21.7]
                 num_pattern - Patterns - No. of movement patterns [Peer-to-Peer, Broadcast, Scatter], stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
             control - Control - , combine=SUM, weight=1, bdc=[2, 0, 4.7, 2.7]
                 indirect_addr - Indirect Addressing - Node supports indirect addressing [y/n], stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
-                loop_levels - Loop Levels  - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+                loop_levels - Loop Levels - No. of loop levels from full control flow, stage_mask=[0, 1, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
                 latency_hide - Latency Hiding - No. of latency hiding widgets [Threads, Double Buffers], stage_mask=[0, 0, 1, 1], weight=1, scale=Exponential, bdc=[0, 0, 2.7, 2.7], num_dims=1
                 data_dep - Data Dependency - Sync. support between data producer and consumer, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[2, 0, 2, 0], num_dims=2
                 isa_decomp - ISA Specialization - Avg no. of ISA commands per operator, stage_mask=[1, 1, 1, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
@@ -4993,20 +4954,20 @@ system - System Root - , combine=SUM, weight=1, bdc=[29, 12, 27.7, 21.7]
 [DEBUG]  Accessing feature list: ia_snc.datapaths_set
 [DEBUG]  Accessing feature list: ia_snc.data_mov
 [INFO ]  Plot generated at: /utilizability/output/exp-2-stages
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  http://localhost:37569 "POST / HTTP/1.1" 200 28713
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  http://localhost:37569 "POST / HTTP/1.1" 200 27542
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  http://localhost:36715 "POST / HTTP/1.1" 200 28713
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  http://localhost:36715 "POST / HTTP/1.1" 200 27542
 [INFO ]  Plot generated at: /utilizability/output/exp-2-stages
 [INFO ]  Plot generated at: /utilizability/output/exp-2-cats
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  http://localhost:37569 "POST / HTTP/1.1" 200 31513
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  http://localhost:37569 "POST / HTTP/1.1" 200 53657
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  http://localhost:36715 "POST / HTTP/1.1" 200 31513
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  http://localhost:36715 "POST / HTTP/1.1" 200 53657
 [INFO ]  Plot generated at: /utilizability/output/exp-2-cats
 [INFO ]  Plot generated at: /utilizability/output/exp-2-cats-bars
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  http://localhost:37569 "POST / HTTP/1.1" 200 29345
-[DEBUG]  Starting new HTTP connection (1): localhost:37569
-[DEBUG]  http://localhost:37569 "POST / HTTP/1.1" 200 28135
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  http://localhost:36715 "POST / HTTP/1.1" 200 29345
+[DEBUG]  Starting new HTTP connection (1): localhost:36715
+[DEBUG]  http://localhost:36715 "POST / HTTP/1.1" 200 28135
 [INFO ]  Plot generated at: /utilizability/output/exp-2-cats-bars

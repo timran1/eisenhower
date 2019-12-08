@@ -60,6 +60,7 @@ def plot_bdc(filename, stages, bdc_vals_dict, style=0):
 
     # To generate image file output:
     fig.write_image(filename + ".pdf")
+    fig.write_image(filename + ".png")
     
     logging.info("Plot generated at: {}".format(filename))
 
@@ -126,6 +127,7 @@ def plot_category_bdc(filename, categories, bdc_vals_dict):
 
     # To generate image file output:
     fig.write_image(filename + ".pdf")
+    fig.write_image(filename + ".png")
     
     logging.info("Plot generated at: {}".format(filename))
 
@@ -192,5 +194,6 @@ def plot_category_bdc_bars(filename, categories, bdc_vals_dict, style=0):
 
     # To generate image file output:
     fig.write_image(filename + ".pdf")
+    fig.write_image(filename + ".png")
     
     logging.info("Plot generated at: {}".format(filename))
