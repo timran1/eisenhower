@@ -46,11 +46,31 @@ This page outlines Backend Development Cost (BDC) analysis of Deep Learning acce
     - **[Sync Capability](#network-and-synchronization--sync-capability)**: No. of inter-node sync. capabilities [Atomics, Interrupt] </br> *stage_mask =* [0, 1, 0, 1];   *scale =* Linear; *weight =* 1 
 
 
+## Backend Development Stages
+TODO: Put diagram. discuss
+
 ## \<FT> Details
-TODO: Add details here
+We now provide more details for the hardware features discussed in \<FT> above.
 
 ### Organization
-The <FT> organizes Hardware Features Descriptor (HDF) into  describes hardware as organizes the hardware into following components.
+The <FT> organizes Hardware Features Descriptors (HDFs) into following categories:
+* Memory
+* Node
+    * Datapaths
+    * Control
+    * Data Movement
+* Network and Synchronization
+
+We differentiate between nodes and datapaths as follows. TODO: describe.
+
+### Memory Hierarchy : Implicit Data Movement
+This feature captures the number of cache levels in the memory hierarchy. Presence of cache is transparent to developers at functional stages. However, it is imperative for performance to employ loop tilling/blocking such that inner-most loop levels access data residing in closest cache levels.
+
+### Memory Hierarchy : Explicit Data Movement
+This feature captures the number of scratch levels in the memory hierarchy. Presence of scratchpads require developer attention even for the first functional version of backend. Hence, cache incurs BDC at all stages. 
+
+### Memory Hierarchy : Software Coherency
+Some levels of the memory hierarchy may delegate coherency management to the developer. The developer must ensure that multiple nodes accessing the same memory location can view the latest value. As cohrency is only relevant for multi-node scenarios, this feature incurs BDC at distributed backend development stages only.
 
 ### Network and Synchronization : Latency
 TODO: Per feature details here
