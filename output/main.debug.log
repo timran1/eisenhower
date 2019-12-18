@@ -9,64 +9,62 @@
 [DEBUG]  Setting combine=SUM for network
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.memory.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_cache
 [DEBUG]  Setting combine=SUM for num_cache
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_scratch
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_cache
 [DEBUG]  Setting combine=SUM for num_scratch
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sw_coherent
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_scratch
 [DEBUG]  Setting combine=SUM for num_sw_coherent
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_access_gran
-[DEBUG]  Setting combine=SUM for num_access_gran
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_props
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sw_coherent
 [DEBUG]  Setting combine=SUM for num_props
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_props
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for node
 [DEBUG]  Setting combine=SUM for node
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for node
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_mov
 [DEBUG]  Setting combine=SUM for data_mov
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for control
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_mov
 [DEBUG]  Setting combine=SUM for control
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapaths_set
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for control
 [DEBUG]  Setting combine=SUM for datapaths_set
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapaths_set
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.data_mov.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_gran
 [DEBUG]  Setting combine=SUM for num_gran
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_pattern
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_gran
 [DEBUG]  Setting combine=SUM for num_pattern
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_pattern
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.control.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
 [DEBUG]  Setting combine=SUM for latency_hide
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_dep
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
 [DEBUG]  Setting combine=SUM for data_dep
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_dep
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapath
 [DEBUG]  Setting combine=SUM for datapath
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapath
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_operation
 [DEBUG]  Setting combine=SUM for num_dims_operation
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_mask
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_operation
 [DEBUG]  Setting combine=SUM for num_dims_mask
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_mem_levels
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_mask
 [DEBUG]  Setting combine=SUM for num_mem_levels
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_mem_levels
 [DEBUG]  Setting combine=SUM for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.network.*
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_latency
 [DEBUG]  Setting combine=SUM for num_latency
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_bandwidth
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_latency
 [DEBUG]  Setting combine=SUM for num_bandwidth
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_topology
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_bandwidth
 [DEBUG]  Setting combine=SUM for num_topology
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sync_capability
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_topology
 [DEBUG]  Setting combine=SUM for num_sync_capability
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sync_capability
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.memory
 [DEBUG]  Accessing feature list: memory.num_cache
@@ -77,8 +75,6 @@
 [DEBUG]  Setting stage_mask=[0, 1, 0, 1] for num_sw_coherent
 [DEBUG]  Accessing feature list: memory.num_props
 [DEBUG]  Setting stage_mask=[1, 0, 1, 0] for num_props
-[DEBUG]  Accessing feature list: memory.num_access_gran
-[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_access_gran
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node
 [DEBUG]  Accessing feature list: node.data_mov.num_gran
@@ -122,7 +118,6 @@
 [DEBUG]  Setting num_dims=0 for num_props
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.memory.num_access_gran
-[DEBUG]  Setting num_dims=0 for num_access_gran
 [DEBUG]  Feature Tree = Default HW Name: 
 [DEBUG]  Accessing feature list: system.nodetypes_set.node.data_mov.num_gran
 [DEBUG]  Setting num_dims=0 for num_gran
@@ -167,7 +162,6 @@ system - System Root - , combine=SUM, weight=1, bdc=None
         num_cache - Implicit Data Movement - No. of cache levels, stage_mask=[0, 0, 1, 1], weight=1, scale=Linear, bdc=None, num_dims=0
         num_scratch - Explicit Data Movement - No. of scratchpad levels, stage_mask=[1, 1, 1, 1], weight=1, scale=Linear, bdc=None, num_dims=0
         num_sw_coherent - Software Coherency - No. of software coherrent levels, stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=None, num_dims=0
-        num_access_gran - Data Access Granularity - No. of data access granularity levels, stage_mask=[1, 1, 1, 1], weight=1, scale=Linear, bdc=None, num_dims=0
         num_props - Storage Properties - No. of storage properties [Activations, Weights, Output], stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=None, num_dims=0
     nodetypes_set - Node Types Set - , combine=SUM, weight=1, bdc=None
         node - Node - , combine=SUM, weight=1, bdc=None
@@ -191,3 +185,1471 @@ system - System Root - , combine=SUM, weight=1, bdc=None
 
 
 [INFO ]  Generated markdown files at: /eisenhower/spiking_nn
+[INFO ]  Starting Experiment 1
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system
+[DEBUG]  Setting combine=SUM for system
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.*
+[DEBUG]  Setting combine=SUM for memory
+[DEBUG]  Setting combine=SUM for nodetypes_set
+[DEBUG]  Setting combine=SUM for network
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.memory.*
+[DEBUG]  Setting combine=SUM for num_cache
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_cache
+[DEBUG]  Setting combine=SUM for num_scratch
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_scratch
+[DEBUG]  Setting combine=SUM for num_sw_coherent
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sw_coherent
+[DEBUG]  Setting combine=SUM for num_props
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_props
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.*
+[DEBUG]  Setting combine=SUM for node
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for node
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.*
+[DEBUG]  Setting combine=SUM for data_mov
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_mov
+[DEBUG]  Setting combine=SUM for control
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for control
+[DEBUG]  Setting combine=SUM for datapaths_set
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapaths_set
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.data_mov.*
+[DEBUG]  Setting combine=SUM for num_gran
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_gran
+[DEBUG]  Setting combine=SUM for num_pattern
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_pattern
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.control.*
+[DEBUG]  Setting combine=SUM for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
+[DEBUG]  Setting combine=SUM for data_dep
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_dep
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.*
+[DEBUG]  Setting combine=SUM for datapath
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapath
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath.*
+[DEBUG]  Setting combine=SUM for num_dims_operation
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_operation
+[DEBUG]  Setting combine=SUM for num_dims_mask
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_mask
+[DEBUG]  Setting combine=SUM for num_mem_levels
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_mem_levels
+[DEBUG]  Setting combine=SUM for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.network.*
+[DEBUG]  Setting combine=SUM for num_latency
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_latency
+[DEBUG]  Setting combine=SUM for num_bandwidth
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_bandwidth
+[DEBUG]  Setting combine=SUM for num_topology
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_topology
+[DEBUG]  Setting combine=SUM for num_sync_capability
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sync_capability
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.memory
+[DEBUG]  Accessing feature list: memory.num_cache
+[DEBUG]  Setting stage_mask=[0, 0, 1, 1] for num_cache
+[DEBUG]  Accessing feature list: memory.num_scratch
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_scratch
+[DEBUG]  Accessing feature list: memory.num_sw_coherent
+[DEBUG]  Setting stage_mask=[0, 1, 0, 1] for num_sw_coherent
+[DEBUG]  Accessing feature list: memory.num_props
+[DEBUG]  Setting stage_mask=[1, 0, 1, 0] for num_props
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node
+[DEBUG]  Accessing feature list: node.data_mov.num_gran
+[DEBUG]  Setting stage_mask=[1, 0, 1, 0] for num_gran
+[DEBUG]  Accessing feature list: node.data_mov.num_pattern
+[DEBUG]  Setting stage_mask=[0, 1, 0, 1] for num_pattern
+[DEBUG]  Accessing feature list: node.control.latency_hide
+[DEBUG]  Setting stage_mask=[0, 0, 1, 1] for latency_hide
+[DEBUG]  Accessing feature list: node.control.data_dep
+[DEBUG]  Setting stage_mask=[1, 0, 1, 0] for data_dep
+[DEBUG]  Accessing feature list: node.datapaths_set.datapath
+[DEBUG]  Accessing feature list: datapath.num_dims_operation
+[DEBUG]  Setting stage_mask=[1, 0, 0, 0] for num_dims_operation
+[DEBUG]  Accessing feature list: datapath.num_dims_mask
+[DEBUG]  Setting stage_mask=[1, 0, 0, 0] for num_dims_mask
+[DEBUG]  Accessing feature list: datapath.num_mem_levels
+[DEBUG]  Setting stage_mask=[1, 0, 1, 0] for num_mem_levels
+[DEBUG]  Accessing feature list: datapath.latency_hide
+[DEBUG]  Setting stage_mask=[0, 0, 1, 0] for latency_hide
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.network
+[DEBUG]  Accessing feature list: network.num_latency
+[DEBUG]  Setting stage_mask=[0, 0, 0, 1] for num_latency
+[DEBUG]  Accessing feature list: network.num_bandwidth
+[DEBUG]  Setting stage_mask=[0, 0, 0, 1] for num_bandwidth
+[DEBUG]  Accessing feature list: network.num_topology
+[DEBUG]  Setting stage_mask=[0, 0, 0, 1] for num_topology
+[DEBUG]  Accessing feature list: network.num_sync_capability
+[DEBUG]  Setting stage_mask=[0, 1, 0, 1] for num_sync_capability
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.memory.num_cache
+[DEBUG]  Setting num_dims=0 for num_cache
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.memory.num_scratch
+[DEBUG]  Setting num_dims=0 for num_scratch
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.memory.num_sw_coherent
+[DEBUG]  Setting num_dims=0 for num_sw_coherent
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.memory.num_props
+[DEBUG]  Setting num_dims=0 for num_props
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.memory.num_access_gran
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.data_mov.num_gran
+[DEBUG]  Setting num_dims=0 for num_gran
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.data_mov.num_pattern
+[DEBUG]  Setting num_dims=0 for num_pattern
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.control.latency_hide
+[DEBUG]  Setting num_dims=0 for latency_hide
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.control.data_dep
+[DEBUG]  Setting num_dims=0 for data_dep
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath.num_dims_operation
+[DEBUG]  Setting num_dims=0 for num_dims_operation
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath.num_dims_mask
+[DEBUG]  Setting num_dims=0 for num_dims_mask
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath.num_mem_levels
+[DEBUG]  Setting num_dims=0 for num_mem_levels
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath.latency_hide
+[DEBUG]  Setting num_dims=0 for latency_hide
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Setting num_dims=0 for num_latency
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.network.num_bandwidth
+[DEBUG]  Setting num_dims=0 for num_bandwidth
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.network.num_topology
+[DEBUG]  Setting num_dims=0 for num_topology
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.network.num_sync_capability
+[DEBUG]  Setting num_dims=0 for num_sync_capability
+[DEBUG]  Feature Tree = Unicore RISCV: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set
+[DEBUG]  Feature Tree = Unicore RISCV: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath
+[DEBUG]  Setting name=scalar for datapath
+[DEBUG]  Setting description=Scalar Datapath for scalar
+[DEBUG]  Accessing feature list: scalar.num_dims_operation
+[DEBUG]  Setting num_dims=0 for num_dims_operation
+[DEBUG]  Accessing feature list: scalar.num_dims_mask
+[DEBUG]  Setting num_dims=0 for num_dims_mask
+[DEBUG]  Accessing feature list: scalar.num_mem_levels
+[DEBUG]  Setting num_dims=1 for num_mem_levels
+[DEBUG]  Accessing feature list: scalar.latency_hide
+[DEBUG]  Setting num_dims=0 for latency_hide
+[DEBUG]  Feature Tree = Unicore RISCV: 
+[DEBUG]  Accessing feature list: system.memory.num_cache
+[DEBUG]  Setting num_dims=1 for num_cache
+[DEBUG]  Feature Tree = Unicore RISCV: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.control.data_dep
+[DEBUG]  Setting num_dims=2 for data_dep
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system
+[DEBUG]  Setting combine=SUM for system
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.*
+[DEBUG]  Setting combine=SUM for memory
+[DEBUG]  Setting combine=SUM for nodetypes_set
+[DEBUG]  Setting combine=SUM for network
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.memory.*
+[DEBUG]  Setting combine=SUM for num_cache
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_cache
+[DEBUG]  Setting combine=SUM for num_scratch
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_scratch
+[DEBUG]  Setting combine=SUM for num_sw_coherent
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sw_coherent
+[DEBUG]  Setting combine=SUM for num_props
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_props
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.*
+[DEBUG]  Setting combine=SUM for node
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for node
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.*
+[DEBUG]  Setting combine=SUM for data_mov
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_mov
+[DEBUG]  Setting combine=SUM for control
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for control
+[DEBUG]  Setting combine=SUM for datapaths_set
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapaths_set
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.data_mov.*
+[DEBUG]  Setting combine=SUM for num_gran
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_gran
+[DEBUG]  Setting combine=SUM for num_pattern
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_pattern
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.control.*
+[DEBUG]  Setting combine=SUM for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
+[DEBUG]  Setting combine=SUM for data_dep
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_dep
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.*
+[DEBUG]  Setting combine=SUM for datapath
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapath
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath.*
+[DEBUG]  Setting combine=SUM for num_dims_operation
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_operation
+[DEBUG]  Setting combine=SUM for num_dims_mask
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_mask
+[DEBUG]  Setting combine=SUM for num_mem_levels
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_mem_levels
+[DEBUG]  Setting combine=SUM for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.network.*
+[DEBUG]  Setting combine=SUM for num_latency
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_latency
+[DEBUG]  Setting combine=SUM for num_bandwidth
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_bandwidth
+[DEBUG]  Setting combine=SUM for num_topology
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_topology
+[DEBUG]  Setting combine=SUM for num_sync_capability
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sync_capability
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.memory
+[DEBUG]  Accessing feature list: memory.num_cache
+[DEBUG]  Setting stage_mask=[0, 0, 1, 1] for num_cache
+[DEBUG]  Accessing feature list: memory.num_scratch
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_scratch
+[DEBUG]  Accessing feature list: memory.num_sw_coherent
+[DEBUG]  Setting stage_mask=[0, 1, 0, 1] for num_sw_coherent
+[DEBUG]  Accessing feature list: memory.num_props
+[DEBUG]  Setting stage_mask=[1, 0, 1, 0] for num_props
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node
+[DEBUG]  Accessing feature list: node.data_mov.num_gran
+[DEBUG]  Setting stage_mask=[1, 0, 1, 0] for num_gran
+[DEBUG]  Accessing feature list: node.data_mov.num_pattern
+[DEBUG]  Setting stage_mask=[0, 1, 0, 1] for num_pattern
+[DEBUG]  Accessing feature list: node.control.latency_hide
+[DEBUG]  Setting stage_mask=[0, 0, 1, 1] for latency_hide
+[DEBUG]  Accessing feature list: node.control.data_dep
+[DEBUG]  Setting stage_mask=[1, 0, 1, 0] for data_dep
+[DEBUG]  Accessing feature list: node.datapaths_set.datapath
+[DEBUG]  Accessing feature list: datapath.num_dims_operation
+[DEBUG]  Setting stage_mask=[1, 0, 0, 0] for num_dims_operation
+[DEBUG]  Accessing feature list: datapath.num_dims_mask
+[DEBUG]  Setting stage_mask=[1, 0, 0, 0] for num_dims_mask
+[DEBUG]  Accessing feature list: datapath.num_mem_levels
+[DEBUG]  Setting stage_mask=[1, 0, 1, 0] for num_mem_levels
+[DEBUG]  Accessing feature list: datapath.latency_hide
+[DEBUG]  Setting stage_mask=[0, 0, 1, 0] for latency_hide
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.network
+[DEBUG]  Accessing feature list: network.num_latency
+[DEBUG]  Setting stage_mask=[0, 0, 0, 1] for num_latency
+[DEBUG]  Accessing feature list: network.num_bandwidth
+[DEBUG]  Setting stage_mask=[0, 0, 0, 1] for num_bandwidth
+[DEBUG]  Accessing feature list: network.num_topology
+[DEBUG]  Setting stage_mask=[0, 0, 0, 1] for num_topology
+[DEBUG]  Accessing feature list: network.num_sync_capability
+[DEBUG]  Setting stage_mask=[0, 1, 0, 1] for num_sync_capability
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.memory.num_cache
+[DEBUG]  Setting num_dims=0 for num_cache
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.memory.num_scratch
+[DEBUG]  Setting num_dims=0 for num_scratch
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.memory.num_sw_coherent
+[DEBUG]  Setting num_dims=0 for num_sw_coherent
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.memory.num_props
+[DEBUG]  Setting num_dims=0 for num_props
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.memory.num_access_gran
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.data_mov.num_gran
+[DEBUG]  Setting num_dims=0 for num_gran
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.data_mov.num_pattern
+[DEBUG]  Setting num_dims=0 for num_pattern
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.control.latency_hide
+[DEBUG]  Setting num_dims=0 for latency_hide
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.control.data_dep
+[DEBUG]  Setting num_dims=0 for data_dep
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath.num_dims_operation
+[DEBUG]  Setting num_dims=0 for num_dims_operation
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath.num_dims_mask
+[DEBUG]  Setting num_dims=0 for num_dims_mask
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath.num_mem_levels
+[DEBUG]  Setting num_dims=0 for num_mem_levels
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath.latency_hide
+[DEBUG]  Setting num_dims=0 for latency_hide
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Setting num_dims=0 for num_latency
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.network.num_bandwidth
+[DEBUG]  Setting num_dims=0 for num_bandwidth
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.network.num_topology
+[DEBUG]  Setting num_dims=0 for num_topology
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.network.num_sync_capability
+[DEBUG]  Setting num_dims=0 for num_sync_capability
+[DEBUG]  Feature Tree = Unicore RISCV: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set
+[DEBUG]  Feature Tree = Unicore RISCV: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath
+[DEBUG]  Setting name=scalar for datapath
+[DEBUG]  Setting description=Scalar Datapath for scalar
+[DEBUG]  Accessing feature list: scalar.num_dims_operation
+[DEBUG]  Setting num_dims=0 for num_dims_operation
+[DEBUG]  Accessing feature list: scalar.num_dims_mask
+[DEBUG]  Setting num_dims=0 for num_dims_mask
+[DEBUG]  Accessing feature list: scalar.num_mem_levels
+[DEBUG]  Setting num_dims=1 for num_mem_levels
+[DEBUG]  Accessing feature list: scalar.latency_hide
+[DEBUG]  Setting num_dims=0 for latency_hide
+[DEBUG]  Feature Tree = Unicore RISCV: 
+[DEBUG]  Accessing feature list: system.memory.num_cache
+[DEBUG]  Setting num_dims=1 for num_cache
+[DEBUG]  Feature Tree = Unicore RISCV: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.control.data_dep
+[DEBUG]  Setting num_dims=2 for data_dep
+[DEBUG]  Feature Tree = Xeon Skylake: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set
+[DEBUG]  Feature Tree = Xeon Skylake: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.scalar
+[DEBUG]  Setting name=avx for scalar
+[DEBUG]  Setting description=AVX Datapath for avx
+[DEBUG]  Accessing feature list: avx.num_dims_operation
+[DEBUG]  Setting num_dims=1 for num_dims_operation
+[DEBUG]  Accessing feature list: avx.num_dims_mask
+[DEBUG]  Setting num_dims=0 for num_dims_mask
+[DEBUG]  Accessing feature list: avx.num_mem_levels
+[DEBUG]  Setting num_dims=1 for num_mem_levels
+[DEBUG]  Accessing feature list: avx.latency_hide
+[DEBUG]  Setting num_dims=0 for latency_hide
+[DEBUG]  Feature Tree = Xeon Skylake: 
+[DEBUG]  Accessing feature list: system.memory.num_cache
+[DEBUG]  Setting num_dims=3 for num_cache
+[DEBUG]  Feature Tree = Xeon Skylake: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.data_mov.num_gran
+[DEBUG]  Setting num_dims=1 for num_gran
+[DEBUG]  Feature Tree = Xeon Skylake: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.control.latency_hide
+[DEBUG]  Setting num_dims=1 for latency_hide
+[DEBUG]  Feature Tree = Xeon Skylake: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Setting num_dims=2 for num_latency
+[DEBUG]  Feature Tree = Xeon Skylake: 
+[DEBUG]  Accessing feature list: system.network.num_bandwidth
+[DEBUG]  Setting num_dims=2 for num_bandwidth
+[DEBUG]  Feature Tree = Xeon Skylake: 
+[DEBUG]  Accessing feature list: system.network.num_topology
+[DEBUG]  Setting num_dims=1 for num_topology
+[DEBUG]  Feature Tree = Xeon Skylake: 
+[DEBUG]  Accessing feature list: system.network.num_sync_capability
+[DEBUG]  Setting num_dims=2 for num_sync_capability
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system
+[DEBUG]  Setting combine=SUM for system
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.*
+[DEBUG]  Setting combine=SUM for memory
+[DEBUG]  Setting combine=SUM for nodetypes_set
+[DEBUG]  Setting combine=SUM for network
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.memory.*
+[DEBUG]  Setting combine=SUM for num_cache
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_cache
+[DEBUG]  Setting combine=SUM for num_scratch
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_scratch
+[DEBUG]  Setting combine=SUM for num_sw_coherent
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sw_coherent
+[DEBUG]  Setting combine=SUM for num_props
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_props
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.*
+[DEBUG]  Setting combine=SUM for node
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for node
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.*
+[DEBUG]  Setting combine=SUM for data_mov
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_mov
+[DEBUG]  Setting combine=SUM for control
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for control
+[DEBUG]  Setting combine=SUM for datapaths_set
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapaths_set
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.data_mov.*
+[DEBUG]  Setting combine=SUM for num_gran
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_gran
+[DEBUG]  Setting combine=SUM for num_pattern
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_pattern
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.control.*
+[DEBUG]  Setting combine=SUM for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
+[DEBUG]  Setting combine=SUM for data_dep
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for data_dep
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.*
+[DEBUG]  Setting combine=SUM for datapath
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for datapath
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath.*
+[DEBUG]  Setting combine=SUM for num_dims_operation
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_operation
+[DEBUG]  Setting combine=SUM for num_dims_mask
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_dims_mask
+[DEBUG]  Setting combine=SUM for num_mem_levels
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_mem_levels
+[DEBUG]  Setting combine=SUM for latency_hide
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for latency_hide
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.network.*
+[DEBUG]  Setting combine=SUM for num_latency
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_latency
+[DEBUG]  Setting combine=SUM for num_bandwidth
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_bandwidth
+[DEBUG]  Setting combine=SUM for num_topology
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_topology
+[DEBUG]  Setting combine=SUM for num_sync_capability
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_sync_capability
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.memory
+[DEBUG]  Accessing feature list: memory.num_cache
+[DEBUG]  Setting stage_mask=[0, 0, 1, 1] for num_cache
+[DEBUG]  Accessing feature list: memory.num_scratch
+[DEBUG]  Setting stage_mask=[1, 1, 1, 1] for num_scratch
+[DEBUG]  Accessing feature list: memory.num_sw_coherent
+[DEBUG]  Setting stage_mask=[0, 1, 0, 1] for num_sw_coherent
+[DEBUG]  Accessing feature list: memory.num_props
+[DEBUG]  Setting stage_mask=[1, 0, 1, 0] for num_props
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node
+[DEBUG]  Accessing feature list: node.data_mov.num_gran
+[DEBUG]  Setting stage_mask=[1, 0, 1, 0] for num_gran
+[DEBUG]  Accessing feature list: node.data_mov.num_pattern
+[DEBUG]  Setting stage_mask=[0, 1, 0, 1] for num_pattern
+[DEBUG]  Accessing feature list: node.control.latency_hide
+[DEBUG]  Setting stage_mask=[0, 0, 1, 1] for latency_hide
+[DEBUG]  Accessing feature list: node.control.data_dep
+[DEBUG]  Setting stage_mask=[1, 0, 1, 0] for data_dep
+[DEBUG]  Accessing feature list: node.datapaths_set.datapath
+[DEBUG]  Accessing feature list: datapath.num_dims_operation
+[DEBUG]  Setting stage_mask=[1, 0, 0, 0] for num_dims_operation
+[DEBUG]  Accessing feature list: datapath.num_dims_mask
+[DEBUG]  Setting stage_mask=[1, 0, 0, 0] for num_dims_mask
+[DEBUG]  Accessing feature list: datapath.num_mem_levels
+[DEBUG]  Setting stage_mask=[1, 0, 1, 0] for num_mem_levels
+[DEBUG]  Accessing feature list: datapath.latency_hide
+[DEBUG]  Setting stage_mask=[0, 0, 1, 0] for latency_hide
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.network
+[DEBUG]  Accessing feature list: network.num_latency
+[DEBUG]  Setting stage_mask=[0, 0, 0, 1] for num_latency
+[DEBUG]  Accessing feature list: network.num_bandwidth
+[DEBUG]  Setting stage_mask=[0, 0, 0, 1] for num_bandwidth
+[DEBUG]  Accessing feature list: network.num_topology
+[DEBUG]  Setting stage_mask=[0, 0, 0, 1] for num_topology
+[DEBUG]  Accessing feature list: network.num_sync_capability
+[DEBUG]  Setting stage_mask=[0, 1, 0, 1] for num_sync_capability
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.memory.num_cache
+[DEBUG]  Setting num_dims=0 for num_cache
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.memory.num_scratch
+[DEBUG]  Setting num_dims=0 for num_scratch
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.memory.num_sw_coherent
+[DEBUG]  Setting num_dims=0 for num_sw_coherent
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.memory.num_props
+[DEBUG]  Setting num_dims=0 for num_props
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.memory.num_access_gran
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.data_mov.num_gran
+[DEBUG]  Setting num_dims=0 for num_gran
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.data_mov.num_pattern
+[DEBUG]  Setting num_dims=0 for num_pattern
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.control.latency_hide
+[DEBUG]  Setting num_dims=0 for latency_hide
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.control.data_dep
+[DEBUG]  Setting num_dims=0 for data_dep
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath.num_dims_operation
+[DEBUG]  Setting num_dims=0 for num_dims_operation
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath.num_dims_mask
+[DEBUG]  Setting num_dims=0 for num_dims_mask
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath.num_mem_levels
+[DEBUG]  Setting num_dims=0 for num_mem_levels
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath.latency_hide
+[DEBUG]  Setting num_dims=0 for latency_hide
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Setting num_dims=0 for num_latency
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.network.num_bandwidth
+[DEBUG]  Setting num_dims=0 for num_bandwidth
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.network.num_topology
+[DEBUG]  Setting num_dims=0 for num_topology
+[DEBUG]  Feature Tree = Default HW Name: 
+[DEBUG]  Accessing feature list: system.network.num_sync_capability
+[DEBUG]  Setting num_dims=0 for num_sync_capability
+[DEBUG]  Feature Tree = Unicore RISCV: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set
+[DEBUG]  Feature Tree = Unicore RISCV: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.datapaths_set.datapath
+[DEBUG]  Setting name=scalar for datapath
+[DEBUG]  Setting description=Scalar Datapath for scalar
+[DEBUG]  Accessing feature list: scalar.num_dims_operation
+[DEBUG]  Setting num_dims=0 for num_dims_operation
+[DEBUG]  Accessing feature list: scalar.num_dims_mask
+[DEBUG]  Setting num_dims=0 for num_dims_mask
+[DEBUG]  Accessing feature list: scalar.num_mem_levels
+[DEBUG]  Setting num_dims=1 for num_mem_levels
+[DEBUG]  Accessing feature list: scalar.latency_hide
+[DEBUG]  Setting num_dims=0 for latency_hide
+[DEBUG]  Feature Tree = Unicore RISCV: 
+[DEBUG]  Accessing feature list: system.memory.num_cache
+[DEBUG]  Setting num_dims=1 for num_cache
+[DEBUG]  Feature Tree = Unicore RISCV: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.control.data_dep
+[DEBUG]  Setting num_dims=2 for data_dep
+[DEBUG]  Feature Tree = Intel Loihi: 
+[DEBUG]  Accessing feature list: system.memory.num_cache
+[DEBUG]  Setting num_dims=0 for num_cache
+[DEBUG]  Feature Tree = Intel Loihi: 
+[DEBUG]  Accessing feature list: system.memory.num_props
+[DEBUG]  Setting num_dims=0 for num_props
+[DEBUG]  Feature Tree = Intel Loihi: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.data_mov.num_grans
+[DEBUG]  Feature Tree = Intel Loihi: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.data_mov.num_pattern
+[DEBUG]  Setting num_dims=3 for num_pattern
+[DEBUG]  Feature Tree = Intel Loihi: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.control.loop_levels
+[DEBUG]  Feature Tree = Intel Loihi: 
+[DEBUG]  Accessing feature list: system.nodetypes_set.node.control.data_dep
+[DEBUG]  Setting num_dims=0 for data_dep
+[DEBUG]  Feature Tree = Intel Loihi: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Setting num_dims=3 for num_latency
+[DEBUG]  Feature Tree = Intel Loihi: 
+[DEBUG]  Accessing feature list: system.network.num_bandwidth
+[DEBUG]  Setting num_dims=3 for num_bandwidth
+[DEBUG]  Feature Tree = Intel Loihi: 
+[DEBUG]  Accessing feature list: system.network.num_topology
+[DEBUG]  Setting num_dims=3 for num_topology
+[DEBUG]  Feature Tree = Intel Loihi: 
+[DEBUG]  Accessing feature list: system.network.num_sync_capability
+[DEBUG]  Setting num_dims=1 for num_sync_capability
+[DEBUG]  Feature Tree = Unicore RISCV: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=1, Output=1
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Feature Tree = Unicore RISCV: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Feature Tree = Unicore RISCV: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Feature Tree = Unicore RISCV: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Combine=3, Inputs=[[0, 0, 1, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]], Output=[0, 0, 1, 0]
+[DEBUG]  Feature Tree = Unicore RISCV: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Feature Tree = Unicore RISCV: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Combine=3, Inputs=[[0, 0, 0, 0], [0, 0, 0, 0]], Output=[0, 0, 0, 0]
+[DEBUG]  Feature Tree = Unicore RISCV: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Feature Tree = Unicore RISCV: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=2, Output=2
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=2, Output=2
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Combine=3, Inputs=[[0, 0, 0, 0], [2, 0, 2, 0]], Output=[2, 0, 2, 0]
+[DEBUG]  Feature Tree = Unicore RISCV: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Feature Tree = Unicore RISCV: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Feature Tree = Unicore RISCV: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=1, Output=1
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=1, Output=1
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Feature Tree = Unicore RISCV: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Combine=3, Inputs=[[0, 0, 0, 0], [0, 0, 0, 0], [1, 0, 1, 0], [0, 0, 0, 0]], Output=[1, 0, 1, 0]
+[DEBUG]  Combine=3, Inputs=[[1, 0, 1, 0]], Output=[1, 0, 1, 0]
+[DEBUG]  Combine=3, Inputs=[[0, 0, 0, 0], [2, 0, 2, 0], [1, 0, 1, 0]], Output=[3, 0, 3, 0]
+[DEBUG]  Combine=3, Inputs=[[3, 0, 3, 0]], Output=[3, 0, 3, 0]
+[DEBUG]  Feature Tree = Unicore RISCV: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Feature Tree = Unicore RISCV: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Feature Tree = Unicore RISCV: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Feature Tree = Unicore RISCV: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Combine=3, Inputs=[[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]], Output=[0, 0, 0, 0]
+[DEBUG]  Combine=3, Inputs=[[0, 0, 1, 0], [3, 0, 3, 0], [0, 0, 0, 0]], Output=[3, 0, 4, 0]
+[INFO ]  Feature Tree: Name = Unicore RISCV
+BDC = [3, 0, 4, 0]
+
+system - System Root - , combine=SUM, weight=1, bdc=[3, 0, 4, 0]
+    memory - Memory Hierarchy - , combine=SUM, weight=1, bdc=[0, 0, 1, 0]
+        num_cache - Implicit Data Movement - No. of cache levels, stage_mask=[0, 0, 1, 1], weight=1, scale=Linear, bdc=[0, 0, 1, 0], num_dims=1
+        num_scratch - Explicit Data Movement - No. of scratchpad levels, stage_mask=[1, 1, 1, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+        num_sw_coherent - Software Coherency - No. of software coherrent levels, stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+        num_props - Storage Properties - No. of storage properties [Activations, Weights, Output], stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+    nodetypes_set - Node Types Set - , combine=SUM, weight=1, bdc=[3, 0, 3, 0]
+        node - Node - , combine=SUM, weight=1, bdc=[3, 0, 3, 0]
+            data_mov - Data Movement - , combine=SUM, weight=1, bdc=[0, 0, 0, 0]
+                num_gran - Granularity - No. of movement packet sizes, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+                num_pattern - Patterns - No. of movement patterns [Peer-to-Peer, Broadcast, Scatter], stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+            control - Control - , combine=SUM, weight=1, bdc=[2, 0, 2, 0]
+                latency_hide - Latency Hiding - No. of latency hiding widgets [Threads, Double Buffers], stage_mask=[0, 0, 1, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+                data_dep - Data Dependency - Sync. support between data producer and consumer, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[2, 0, 2, 0], num_dims=2
+            datapaths_set - Datapaths Set - , combine=SUM, weight=1, bdc=[1, 0, 1, 0]
+                scalar - DataPath - Scalar Datapath, combine=SUM, weight=1, bdc=[1, 0, 1, 0]
+                    num_dims_operation - Operation Dimensions - No. of dimensions of data operations, stage_mask=[1, 0, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+                    num_dims_mask - Unmaskable Dimensions - No. of inner operation dimensions without masking support, stage_mask=[1, 0, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+                    num_mem_levels - Memory Levels - No. of memory units in datapath [Input, Output, Internal], stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[1, 0, 1, 0], num_dims=1
+                    latency_hide - Latency Hiding - No. of latency hiding widgets [Threads, Double Buffers], stage_mask=[0, 0, 1, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+    network - Network and Synchronization - , combine=SUM, weight=1, bdc=[0, 0, 0, 0]
+        num_latency - Latency - No. of latency domains visible to node, stage_mask=[0, 0, 0, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+        num_bandwidth - Bandwidth - No. of bandwidth domains visible to node, stage_mask=[0, 0, 0, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+        num_topology - Topology Positions - No. of topology positions in node layout, stage_mask=[0, 0, 0, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+        num_sync_capability - Sync Capability - No. of inter-node sync. capabilities [Atomics, Interrupt], stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+
+
+
+[DEBUG]  Feature Tree = Unicore RISCV: 
+[DEBUG]  Accessing feature list: system.memory
+[DEBUG]  Feature Tree = Unicore RISCV: 
+[DEBUG]  Accessing feature list: system.network
+[DEBUG]  Feature Tree = Unicore RISCV: 
+[DEBUG]  Accessing feature list: system.nodetypes_set
+[DEBUG]  Accessing feature list: nodetypes_set.*
+[DEBUG]  Accessing feature list: node.control
+[DEBUG]  Accessing feature list: node.datapaths_set
+[DEBUG]  Accessing feature list: node.data_mov
+[DEBUG]  Feature Tree = Xeon Skylake: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=3, Output=3
+[DEBUG]  Scale=0, Input=3, Output=3
+[DEBUG]  Feature Tree = Xeon Skylake: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Feature Tree = Xeon Skylake: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Feature Tree = Xeon Skylake: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Combine=3, Inputs=[[0, 0, 3, 3], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]], Output=[0, 0, 3, 3]
+[DEBUG]  Feature Tree = Xeon Skylake: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=1, Output=1
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=1, Output=1
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Feature Tree = Xeon Skylake: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Combine=3, Inputs=[[1, 0, 1, 0], [0, 0, 0, 0]], Output=[1, 0, 1, 0]
+[DEBUG]  Feature Tree = Xeon Skylake: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=1, Output=1
+[DEBUG]  Scale=0, Input=1, Output=1
+[DEBUG]  Feature Tree = Xeon Skylake: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=2, Output=2
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=2, Output=2
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Combine=3, Inputs=[[0, 0, 1, 1], [2, 0, 2, 0]], Output=[2, 0, 3, 1]
+[DEBUG]  Feature Tree = Xeon Skylake: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Feature Tree = Xeon Skylake: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Feature Tree = Xeon Skylake: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=1, Output=1
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=1, Output=1
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Feature Tree = Xeon Skylake: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Combine=3, Inputs=[[0, 0, 0, 0], [0, 0, 0, 0], [1, 0, 1, 0], [0, 0, 0, 0]], Output=[1, 0, 1, 0]
+[DEBUG]  Feature Tree = Xeon Skylake: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=1, Output=1
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Feature Tree = Xeon Skylake: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Feature Tree = Xeon Skylake: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=1, Output=1
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=1, Output=1
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Feature Tree = Xeon Skylake: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Combine=3, Inputs=[[1, 0, 0, 0], [0, 0, 0, 0], [1, 0, 1, 0], [0, 0, 0, 0]], Output=[2, 0, 1, 0]
+[DEBUG]  Combine=3, Inputs=[[1, 0, 1, 0], [2, 0, 1, 0]], Output=[3, 0, 2, 0]
+[DEBUG]  Combine=3, Inputs=[[1, 0, 1, 0], [2, 0, 3, 1], [3, 0, 2, 0]], Output=[6, 0, 6, 1]
+[DEBUG]  Combine=3, Inputs=[[6, 0, 6, 1]], Output=[6, 0, 6, 1]
+[DEBUG]  Feature Tree = Xeon Skylake: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=2, Output=2
+[DEBUG]  Feature Tree = Xeon Skylake: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=2, Output=2
+[DEBUG]  Feature Tree = Xeon Skylake: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=1, Output=1
+[DEBUG]  Feature Tree = Xeon Skylake: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=2, Output=2
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=2, Output=2
+[DEBUG]  Combine=3, Inputs=[[0, 0, 0, 2], [0, 0, 0, 2], [0, 0, 0, 1], [0, 2, 0, 2]], Output=[0, 2, 0, 7]
+[DEBUG]  Combine=3, Inputs=[[0, 0, 3, 3], [6, 0, 6, 1], [0, 2, 0, 7]], Output=[6, 2, 9, 11]
+[INFO ]  Feature Tree: Name = Xeon Skylake
+BDC = [6, 2, 9, 11]
+
+system - System Root - , combine=SUM, weight=1, bdc=[6, 2, 9, 11]
+    memory - Memory Hierarchy - , combine=SUM, weight=1, bdc=[0, 0, 3, 3]
+        num_cache - Implicit Data Movement - No. of cache levels, stage_mask=[0, 0, 1, 1], weight=1, scale=Linear, bdc=[0, 0, 3, 3], num_dims=3
+        num_scratch - Explicit Data Movement - No. of scratchpad levels, stage_mask=[1, 1, 1, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+        num_sw_coherent - Software Coherency - No. of software coherrent levels, stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+        num_props - Storage Properties - No. of storage properties [Activations, Weights, Output], stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+    nodetypes_set - Node Types Set - , combine=SUM, weight=1, bdc=[6, 0, 6, 1]
+        node - Node - , combine=SUM, weight=1, bdc=[6, 0, 6, 1]
+            data_mov - Data Movement - , combine=SUM, weight=1, bdc=[1, 0, 1, 0]
+                num_gran - Granularity - No. of movement packet sizes, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[1, 0, 1, 0], num_dims=1
+                num_pattern - Patterns - No. of movement patterns [Peer-to-Peer, Broadcast, Scatter], stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+            control - Control - , combine=SUM, weight=1, bdc=[2, 0, 3, 1]
+                latency_hide - Latency Hiding - No. of latency hiding widgets [Threads, Double Buffers], stage_mask=[0, 0, 1, 1], weight=1, scale=Linear, bdc=[0, 0, 1, 1], num_dims=1
+                data_dep - Data Dependency - Sync. support between data producer and consumer, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[2, 0, 2, 0], num_dims=2
+            datapaths_set - Datapaths Set - , combine=SUM, weight=1, bdc=[3, 0, 2, 0]
+                scalar - DataPath - Scalar Datapath, combine=SUM, weight=1, bdc=[1, 0, 1, 0]
+                    num_dims_operation - Operation Dimensions - No. of dimensions of data operations, stage_mask=[1, 0, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+                    num_dims_mask - Unmaskable Dimensions - No. of inner operation dimensions without masking support, stage_mask=[1, 0, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+                    num_mem_levels - Memory Levels - No. of memory units in datapath [Input, Output, Internal], stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[1, 0, 1, 0], num_dims=1
+                    latency_hide - Latency Hiding - No. of latency hiding widgets [Threads, Double Buffers], stage_mask=[0, 0, 1, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+                avx - DataPath - AVX Datapath, combine=SUM, weight=1, bdc=[2, 0, 1, 0]
+                    num_dims_operation - Operation Dimensions - No. of dimensions of data operations, stage_mask=[1, 0, 0, 0], weight=1, scale=Linear, bdc=[1, 0, 0, 0], num_dims=1
+                    num_dims_mask - Unmaskable Dimensions - No. of inner operation dimensions without masking support, stage_mask=[1, 0, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+                    num_mem_levels - Memory Levels - No. of memory units in datapath [Input, Output, Internal], stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[1, 0, 1, 0], num_dims=1
+                    latency_hide - Latency Hiding - No. of latency hiding widgets [Threads, Double Buffers], stage_mask=[0, 0, 1, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+    network - Network and Synchronization - , combine=SUM, weight=1, bdc=[0, 2, 0, 7]
+        num_latency - Latency - No. of latency domains visible to node, stage_mask=[0, 0, 0, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 2], num_dims=2
+        num_bandwidth - Bandwidth - No. of bandwidth domains visible to node, stage_mask=[0, 0, 0, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 2], num_dims=2
+        num_topology - Topology Positions - No. of topology positions in node layout, stage_mask=[0, 0, 0, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 1], num_dims=1
+        num_sync_capability - Sync Capability - No. of inter-node sync. capabilities [Atomics, Interrupt], stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=[0, 2, 0, 2], num_dims=2
+
+
+
+[DEBUG]  Feature Tree = Xeon Skylake: 
+[DEBUG]  Accessing feature list: system.memory
+[DEBUG]  Feature Tree = Xeon Skylake: 
+[DEBUG]  Accessing feature list: system.network
+[DEBUG]  Feature Tree = Xeon Skylake: 
+[DEBUG]  Accessing feature list: system.nodetypes_set
+[DEBUG]  Accessing feature list: nodetypes_set.*
+[DEBUG]  Accessing feature list: node.control
+[DEBUG]  Accessing feature list: node.datapaths_set
+[DEBUG]  Accessing feature list: node.data_mov
+[DEBUG]  Feature Tree = Intel Loihi: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Feature Tree = Intel Loihi: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Feature Tree = Intel Loihi: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Feature Tree = Intel Loihi: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Combine=3, Inputs=[[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]], Output=[0, 0, 0, 0]
+[DEBUG]  Feature Tree = Intel Loihi: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Feature Tree = Intel Loihi: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=3, Output=3
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=3, Output=3
+[DEBUG]  Combine=3, Inputs=[[0, 0, 0, 0], [0, 3, 0, 3]], Output=[0, 3, 0, 3]
+[DEBUG]  Feature Tree = Intel Loihi: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Feature Tree = Intel Loihi: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Combine=3, Inputs=[[0, 0, 0, 0], [0, 0, 0, 0]], Output=[0, 0, 0, 0]
+[DEBUG]  Feature Tree = Intel Loihi: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Feature Tree = Intel Loihi: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Feature Tree = Intel Loihi: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=1, Output=1
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=1, Output=1
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Feature Tree = Intel Loihi: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Combine=3, Inputs=[[0, 0, 0, 0], [0, 0, 0, 0], [1, 0, 1, 0], [0, 0, 0, 0]], Output=[1, 0, 1, 0]
+[DEBUG]  Combine=3, Inputs=[[1, 0, 1, 0]], Output=[1, 0, 1, 0]
+[DEBUG]  Combine=3, Inputs=[[0, 3, 0, 3], [0, 0, 0, 0], [1, 0, 1, 0]], Output=[1, 3, 1, 3]
+[DEBUG]  Combine=3, Inputs=[[1, 3, 1, 3]], Output=[1, 3, 1, 3]
+[DEBUG]  Feature Tree = Intel Loihi: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=3, Output=3
+[DEBUG]  Feature Tree = Intel Loihi: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=3, Output=3
+[DEBUG]  Feature Tree = Intel Loihi: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=3, Output=3
+[DEBUG]  Feature Tree = Intel Loihi: 
+[DEBUG]  Accessing feature list: system.network.num_latency
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=1, Output=1
+[DEBUG]  Scale=0, Input=0, Output=0
+[DEBUG]  Scale=0, Input=1, Output=1
+[DEBUG]  Combine=3, Inputs=[[0, 0, 0, 3], [0, 0, 0, 3], [0, 0, 0, 3], [0, 1, 0, 1]], Output=[0, 1, 0, 10]
+[DEBUG]  Combine=3, Inputs=[[0, 0, 0, 0], [1, 3, 1, 3], [0, 1, 0, 10]], Output=[1, 4, 1, 13]
+[INFO ]  Feature Tree: Name = Intel Loihi
+BDC = [1, 4, 1, 13]
+
+system - System Root - , combine=SUM, weight=1, bdc=[1, 4, 1, 13]
+    memory - Memory Hierarchy - , combine=SUM, weight=1, bdc=[0, 0, 0, 0]
+        num_cache - Implicit Data Movement - No. of cache levels, stage_mask=[0, 0, 1, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+        num_scratch - Explicit Data Movement - No. of scratchpad levels, stage_mask=[1, 1, 1, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+        num_sw_coherent - Software Coherency - No. of software coherrent levels, stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+        num_props - Storage Properties - No. of storage properties [Activations, Weights, Output], stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+    nodetypes_set - Node Types Set - , combine=SUM, weight=1, bdc=[1, 3, 1, 3]
+        node - Node - , combine=SUM, weight=1, bdc=[1, 3, 1, 3]
+            data_mov - Data Movement - , combine=SUM, weight=1, bdc=[0, 3, 0, 3]
+                num_gran - Granularity - No. of movement packet sizes, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+                num_pattern - Patterns - No. of movement patterns [Peer-to-Peer, Broadcast, Scatter], stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=[0, 3, 0, 3], num_dims=3
+            control - Control - , combine=SUM, weight=1, bdc=[0, 0, 0, 0]
+                latency_hide - Latency Hiding - No. of latency hiding widgets [Threads, Double Buffers], stage_mask=[0, 0, 1, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+                data_dep - Data Dependency - Sync. support between data producer and consumer, stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+            datapaths_set - Datapaths Set - , combine=SUM, weight=1, bdc=[1, 0, 1, 0]
+                scalar - DataPath - Scalar Datapath, combine=SUM, weight=1, bdc=[1, 0, 1, 0]
+                    num_dims_operation - Operation Dimensions - No. of dimensions of data operations, stage_mask=[1, 0, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+                    num_dims_mask - Unmaskable Dimensions - No. of inner operation dimensions without masking support, stage_mask=[1, 0, 0, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+                    num_mem_levels - Memory Levels - No. of memory units in datapath [Input, Output, Internal], stage_mask=[1, 0, 1, 0], weight=1, scale=Linear, bdc=[1, 0, 1, 0], num_dims=1
+                    latency_hide - Latency Hiding - No. of latency hiding widgets [Threads, Double Buffers], stage_mask=[0, 0, 1, 0], weight=1, scale=Linear, bdc=[0, 0, 0, 0], num_dims=0
+    network - Network and Synchronization - , combine=SUM, weight=1, bdc=[0, 1, 0, 10]
+        num_latency - Latency - No. of latency domains visible to node, stage_mask=[0, 0, 0, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 3], num_dims=3
+        num_bandwidth - Bandwidth - No. of bandwidth domains visible to node, stage_mask=[0, 0, 0, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 3], num_dims=3
+        num_topology - Topology Positions - No. of topology positions in node layout, stage_mask=[0, 0, 0, 1], weight=1, scale=Linear, bdc=[0, 0, 0, 3], num_dims=3
+        num_sync_capability - Sync Capability - No. of inter-node sync. capabilities [Atomics, Interrupt], stage_mask=[0, 1, 0, 1], weight=1, scale=Linear, bdc=[0, 1, 0, 1], num_dims=1
+
+
+
+[DEBUG]  Feature Tree = Intel Loihi: 
+[DEBUG]  Accessing feature list: system.memory
+[DEBUG]  Feature Tree = Intel Loihi: 
+[DEBUG]  Accessing feature list: system.network
+[DEBUG]  Feature Tree = Intel Loihi: 
+[DEBUG]  Accessing feature list: system.nodetypes_set
+[DEBUG]  Accessing feature list: nodetypes_set.*
+[DEBUG]  Accessing feature list: node.control
+[DEBUG]  Accessing feature list: node.datapaths_set
+[DEBUG]  Accessing feature list: node.data_mov
+[INFO ]  Plot generated at: /eisenhower/output/exp-1-stages
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  http://localhost:42767 "POST / HTTP/1.1" 200 28134
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  http://localhost:42767 "POST / HTTP/1.1" 200 25615
+[INFO ]  Plot generated at: /eisenhower/output/exp-1-stages
+[INFO ]  Plot generated at: /eisenhower/output/exp-1-cats
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  http://localhost:42767 "POST / HTTP/1.1" 200 30667
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  http://localhost:42767 "POST / HTTP/1.1" 200 47568
+[INFO ]  Plot generated at: /eisenhower/output/exp-1-cats
+[INFO ]  Plot generated at: /eisenhower/output/exp-1-cats-bars
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  http://localhost:42767 "POST / HTTP/1.1" 200 28881
+[DEBUG]  Starting new HTTP connection (1): localhost:42767
+[DEBUG]  http://localhost:42767 "POST / HTTP/1.1" 200 26492
+[INFO ]  Plot generated at: /eisenhower/output/exp-1-cats-bars

@@ -13,7 +13,6 @@ def experiment_1(output_dir):
     # Select hardware designs
     hws = [ CPU(),
             Intel_Xeon_Skylake_CPU(),
-            NVIDIA_Fermi_GPU(),
             Loihi()]
 
     eval_results = OrderedDict()
@@ -42,4 +41,4 @@ if __name__ == "__main__":
     logging.info (snn_ftt.to_stdout() + "\n")
     gen_markdown_readme(snn_ftt, get_class_dir(snn_ftt))
 
-    #experiment_1(output_dir)
+    experiment_1(output_dir)

@@ -23,7 +23,6 @@ class SpikingNN_FT_Template(FeatureTree):
                     Feature("num_cache",        "Implicit Data Movement",   "No. of cache levels"),
                     Feature("num_scratch",      "Explicit Data Movement",   "No. of scratchpad levels"),
                     Feature("num_sw_coherent",  "Software Coherency",       "No. of software coherrent levels"),
-                    Feature("num_access_gran",  "Data Access Granularity",  "No. of data access granularity levels"),
                     Feature("num_props",        "Storage Properties",       "No. of storage properties [Activations, Weights, Output]"),
                 ]),
 
@@ -89,7 +88,6 @@ class SpikingNN_FT_Template(FeatureTree):
             memory.find_sub_f("memory.num_scratch")[0].init(    stage_mask=self.MASK_ALL_SET)
             memory.find_sub_f("memory.num_sw_coherent")[0].init(stage_mask=self.MASK_MULTI_ONLY_SET)
             memory.find_sub_f("memory.num_props")[0].init(      stage_mask=self.MASK_SINGL_ONLY_SET)
-            memory.find_sub_f("memory.num_access_gran")[0].init(stage_mask=self.MASK_ALL_SET)
 
             # Set node template
             node = self.find_sub_f("system.nodetypes_set.node")[0]

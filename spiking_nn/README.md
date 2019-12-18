@@ -12,7 +12,6 @@ This page outlines Backend Development Cost (BDC) analysis of Spiking Neural Net
     - **[Implicit Data Movement](#memory-hierarchy--implicit-data-movement)**: No. of cache levels </br> *stage_mask =* [0, 0, 1, 1];   *scale =* Linear; *weight =* 1 
     - **[Explicit Data Movement](#memory-hierarchy--explicit-data-movement)**: No. of scratchpad levels </br> *stage_mask =* [1, 1, 1, 1];   *scale =* Linear; *weight =* 1 
     - **[Software Coherency](#memory-hierarchy--software-coherency)**: No. of software coherrent levels </br> *stage_mask =* [0, 1, 0, 1];   *scale =* Linear; *weight =* 1 
-    - **[Data Access Granularity](#memory-hierarchy--data-access-granularity)**: No. of data access granularity levels </br> *stage_mask =* [1, 1, 1, 1];   *scale =* Linear; *weight =* 1 
     - **[Storage Properties](#memory-hierarchy--storage-properties)**: No. of storage properties [Activations, Weights, Output] </br> *stage_mask =* [1, 0, 1, 0];   *scale =* Linear; *weight =* 1 
   - **[Node Types Set](#node-types-set)** </br>  *combine =* SUM;  *weight =* 1 
     - **[Node](#node-types-set--node)** </br>  *combine =* SUM;  *weight =* 1 
