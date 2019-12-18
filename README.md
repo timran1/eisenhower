@@ -3,6 +3,8 @@ Welcome to **Eisenhower** framework for analysis of software Backend Development
 
 TODO: Provide a summary
 
+TODO: What is a backend
+
 Refer to our paper for more details: TODO: Add link
 
 ## Feature Trees

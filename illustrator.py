@@ -78,7 +78,7 @@ def gen_markdown_readme(ft, directory):
         return  ("\n\n" + gen_feature(ft.root, 0) + "")
 
     # Read details template
-    with open(directory + "/details.md", 'r') as file:
+    with open(directory + "/.template.md", 'r') as file:
         details = file.read()
 
     # Generate file
