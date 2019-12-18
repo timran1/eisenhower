@@ -72,8 +72,58 @@ This feature captures the number of scratch levels in the memory hierarchy. Pres
 ### Memory Hierarchy : Software Coherency
 Some levels of the memory hierarchy may delegate coherency management to the developer. The developer must ensure that multiple nodes accessing the same memory location can view the latest value. As cohrency is only relevant for multi-node scenarios, this feature incurs BDC at distributed backend development stages only.
 
+### Memory Hierarchy : Data Access Granularity
+Different memory levels may have different memory lines access granularity. While typically the memory line (or cache line) size is same throughout the memory hierarchy (order of bytes), modern high-capacity memories may present a bigger memory line size (order of few kilobytes). This mismatch may require additional considerations for optimization stages.
+
+### Memory Hierarchy : Storage Properties
+Modern accelerators may specialize memory units to store only particular kinds of data. For example, Deep Learning accelerators dedicate some memory units to store activations while other memory units just to store weights. We use "Storage Properties" to refer to such memory specialization (which may extend beyond just weights or activations) as opposed to a homogenous memory unit. For the general case of operators which do not have a notion of weights and activations (such as concatanetaion), these storage properties require additional developer considerations during data placement and incur BDC at all stages of backend developement.
+
+### Node Types Set : Node : Data Movement : DMA Engines
+Presence of DMA engines in a node opens up the possibility of an array of data movement scenarios concurrent with the node operation. Effectively using the DMAs requires additional developer considerations at optimization stages.
+
+### Node Types Set : Node : Data Movement : Stride
+
+
+### Node Types Set : Node : Data Movement : Patterns
+
+
+### Node Types Set : Node : Control : Indirect Addressing
+
+
+### Node Types Set : Node : Control : Loop Levels
+
+
+### Node Types Set : Node : Control : Latency Hiding
+
+
+### Node Types Set : Node : Control : Data Dependency
+
+
+### Node Types Set : Node : Control : ISA Specialization
+
+
+### Node Types Set : Node : Datapaths Set : Datapath : Operation Dimensions
+
+
+### Node Types Set : Node : Datapaths Set : Datapath : Unmaskable Dimensions
+
+### Node Types Set : Node : Datapaths Set : Datapath : Memory Levels
+
+
+### Node Types Set : Node : Datapaths Set : Datapath : Latency Hiding
+
 ### Network and Synchronization : Latency
 TODO: Per feature details here
+
+
+### Network and Synchronization : Bandwidth
+
+
+### Network and Synchronization : Topology Positions
+
+
+### Network and Synchronization : Sync Capability
+
 
 ## References
 TODO: Add
