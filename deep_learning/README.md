@@ -1,6 +1,6 @@
-# Deep Learning Feature Tree
+# Deep Learning Feature Trees
 
-This page outlines Backend Development Cost (BDC) analysis of Deep Learning accelerators. The Feature Tree Template \<FT> used for this analysis is available [below](feature-tree-template). We used the provided \<FT> to model following hardware:
+This page outlines Backend Development Cost (BDC) analysis of Deep Learning accelerators. The Feature Tree Template (\<FT>) used for this analysis is available [below](#feature-tree-template). We used the provided \<FT> to model the following hardware:
 * Unicore RISC-V CPU
 * Intel Xeon CPU
 * NVIDIA Fermi GPU
@@ -10,7 +10,7 @@ This page outlines Backend Development Cost (BDC) analysis of Deep Learning acce
 * Intel Spring Hill
 * NVIDIA Simba
 
-## Feature Tree Template
+## Feature Tree Template (\<FT>)
 
 
 
@@ -48,6 +48,9 @@ This page outlines Backend Development Cost (BDC) analysis of Deep Learning acce
 
 ## \<FT> Details
 TODO: Add details here
+
+### Organization
+The <FT> organizes Hardware Features Descriptor (HDF) into  describes hardware as organizes the hardware into following components.
 
 ### Network and Synchronization : Latency
 TODO: Per feature details here
