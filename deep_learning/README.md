@@ -75,23 +75,29 @@ Some levels of the memory hierarchy may delegate coherency management to the dev
 ### Memory Hierarchy : Data Access Granularity
 Different memory levels may have different memory lines access granularity. While typically the memory line (or cache line) size is same throughout the memory hierarchy (order of bytes), modern high-capacity memories may present a bigger memory line size (order of few kilobytes). This mismatch may require additional considerations for optimization stages.
 
+TODO: Explain diagram
+
 ### Memory Hierarchy : Storage Properties
 Modern accelerators may specialize memory units to store only particular kinds of data. For example, Deep Learning accelerators dedicate some memory units to store activations while other memory units just to store weights. We use "Storage Properties" to refer to such memory specialization (which may extend beyond just weights or activations) as opposed to a homogenous memory unit. For the general case of operators which do not have a notion of weights and activations (such as concatanetaion), these storage properties require additional developer considerations during data placement and incur BDC at all stages of backend developement.
+
+TODO: Explain diagram
 
 ### Node Types Set : Node : Data Movement : DMA Engines
 Presence of DMA engines in a node opens up the possibility of an array of data movement scenarios concurrent with the node operation. Effectively using the DMAs requires additional developer considerations at optimization stages.
 
 ### Node Types Set : Node : Data Movement : Stride
+Data movement problems can be formulated in different ways depending on the number of dimensions of stride supported by hardware. Higher number of stride dimensions increase the number of ways a data movement problem can be mapped to a data movement primitives. At the simplest extreme, no stride forces the developer to issue contiguous data movement commands. It is relevant to note that development for some operators working on high dimensional data may be eased by a higher stride dimension. Stride affects all single-node stages of backend development.
 
+TODO: Explain diagram
 
 ### Node Types Set : Node : Data Movement : Patterns
-
+Every multi-node system at least supports a peer-to-peer data movement primitive. More advanced patterns such as broadcast (multicast) or scatter/gather may also be supported by hardware. THe number of possible formulations of a data movement problem can increase with the number of hardware supported data movement patterns. This feature is relevant in multi-node systems and impacts both distributed stages of backend development.
 
 ### Node Types Set : Node : Control : Indirect Addressing
-
+If the nodes in a multi-node system support indirect addressing for memory access, the same instruction stream (indexed to appropriate data using node ID) can be executed at all the nodes involved. This can greatly simplify deployment of kernels across the distributed system of nodes. Indirect addressing also reduces the badnwidth requirements for instruction stream delivery to all nodes. This factor impacts the *func-dist* stage of backend development.
 
 ### Node Types Set : Node : Control : Loop Levels
-
+Deep Learning accelerators may limit the control flow primitives supported at N inner-most loop levels for implementation simplicity and performance (reduced instruction stream bandwidth). This optimization requires the developer to formulate all instruction streams as at least N nested loops for best hardware utilization. This feature incurs BDC at *opt-single* stage.
 
 ### Node Types Set : Node : Control : Latency Hiding
 
