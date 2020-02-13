@@ -7,6 +7,8 @@ TODO: What is a backend
 
 Refer to our paper for more details: TODO: Add link
 
+**Update: Annonymized survey handout and results are available in `survey` directory.**
+
 ## Feature Trees
 We have provided the following **Feature Tree Templates (\<FT>)** in this repo. Please refer to respective \<FT> pages for list of hardware accelerators:
 
