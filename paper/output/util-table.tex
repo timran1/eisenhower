@@ -1,0 +1,69 @@
+
+\centering
+\begin{tabularx}{\textwidth}{@{}lXcccc@{}}
+\toprule
+\multicolumn{1}{c}{Feature Name} & 
+\multicolumn{1}{c}{Brief Description} & 
+\multicolumn{1}{c}{Stage Mask} & 
+\multicolumn{1}{c}{Combine} & 
+\multicolumn{1}{c}{Weight} & 
+\multicolumn{1}{c}{Scale} \\ \midrule
+\hspace{0mm} System Root &  &  & Sum & 1.0 &  \\ 
+
+\hspace{3mm} Memory Hierarchy &  &  & Sum & 1.0 &  \\ 
+
+\hspace{6mm} Implicit Data Movement & No. of cache levels & [0,0,1,1] &  & 1.0 & Linear \\ 
+
+\hspace{6mm} Explicit Data Movement & No. of scratchpad levels & [1,1,1,1] &  & 1.0 & Linear \\ 
+
+\hspace{6mm} Software Coherency & No. of software coherrent levels & [0,1,0,1] &  & 1.0 & Linear \\ 
+
+\hspace{6mm} Data Access Granularity & No. of data access granularity levels & [1,1,1,1] &  & 1.0 & Linear \\ 
+
+\hspace{6mm} Storage Properties & No. of storage properties [Activations, Weights, Output] & [1,0,1,0] &  & 1.0 & Linear \\ 
+
+\hspace{3mm} Node &  &  & Sum & 1.0 &  \\ 
+
+\hspace{6mm} Control &  &  & Sum & 1.0 &  \\ 
+
+\hspace{9mm} Indirect Addressing & Node supports indirect addressing [y/n] & [0,1,0,0] &  & 1.0 & Linear \\ 
+
+\hspace{9mm} Loop Levels & No. of loop levels from full control flow & [0,1,0,0] &  & 1.0 & Linear \\ 
+
+\hspace{9mm} Latency Hiding & No. of latency hiding widgets [Threads, Double Buffers] & [0,0,1,1] &  & 1.0 & Exponential \\ 
+
+\hspace{9mm} Data Dependency & Sync. support between data producer and consumer & [1,0,1,0] &  & 1.0 & Linear \\ 
+
+\hspace{9mm} ISA Specialization & Avg no. of ISA commands per operator & [1,1,1,1] &  & 1.0 & Linear \\ 
+
+\hspace{6mm} Data Movement &  &  & Sum & 1.0 &  \\ 
+
+\hspace{9mm} DMA Engines & DMA engines present in node [y/n]  & [0,0,1,1] &  & 1.0 & Linear \\ 
+
+\hspace{9mm} Stride & No. of dimensions of hardware supported stride & [1,0,1,0] &  & 1.0 & Linear \\ 
+
+\hspace{9mm} Patterns & No. of movement patterns [Peer-to-Peer, Broadcast, Scatter] & [0,1,0,1] &  & 1.0 & Linear \\ 
+
+\hspace{6mm} DataPath &  &  & Sum & 1.0 &  \\ 
+
+\hspace{9mm} Operation Dimensions & No. of dimensions of data operations & [1,0,0,0] &  & 1.0 & Linear \\ 
+
+\hspace{9mm} Unmaskable Dimensions & No. of inner operation dimensions without masking support & [1,0,0,0] &  & 1.0 & Linear \\ 
+
+\hspace{9mm} Memory Levels & No. of memory units in datapath [Input, Output, Internal] & [1,0,1,0] &  & 1.0 & Linear \\ 
+
+\hspace{9mm} Latency Hiding & No. of latency hiding widgets [Threads, Double Buffers] & [0,0,1,0] &  & 1.0 & Linear \\ 
+
+\hspace{3mm} Network and Synchronization &  &  & Sum & 1.0 &  \\ 
+
+\hspace{6mm} Latency & No. of latency domains visible to node & [0,0,0,1] &  & 1.0 & Linear \\ 
+
+\hspace{6mm} Bandwidth & No. of bandwidth domains visible to node & [0,0,0,1] &  & 1.0 & Linear \\ 
+
+\hspace{6mm} Topology Positions & No. of topology positions in node layout & [0,0,0,1] &  & 1.0 & Linear \\ 
+
+\hspace{6mm} Sync Capability & No. of inter-node sync. capabilities [Atomics, Interrupt] & [0,1,0,1] &  & 1.0 & Linear \\ 
+
+
+\bottomrule
+\end{tabularx}
